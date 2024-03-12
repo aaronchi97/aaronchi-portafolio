@@ -1118,9 +1118,9 @@
 
         // Obtener la posición del scroll y el límite superior e inferior de #slide-phone
         var scrollY = window.scrollY;
-        var slidePhoneTop = slidePhone.offsetTop - 20; // 200px antes de entrar
+        var slidePhoneTop = slidePhone.offsetTop - 20; // 20px antes de entrar
         var slidePhoneBottom =
-          slidePhone.offsetTop + slidePhone.offsetHeight + 20; // 200px antes de salir
+          slidePhoneTop + (slidePhone.offsetHeight * 3) / 8; // 3/8 del contenedor
 
         // Verificar si el scroll está dentro del área de #slide-phone
         var isInsideSlidePhone =

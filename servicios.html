@@ -189,7 +189,7 @@
       </div>
     </section>
 
-    <section class="tabs_contenedor-t1 ancho">
+    <section id="sec-tabz" class="tabs_contenedor-t1 ancho">
       <figure
         class="tabs_contenido-t1 1 animate__animated animate__fadeInUp"
         id="tab1"
@@ -1492,7 +1492,20 @@
     <script type="text/javascript">
       window.addEventListener("scroll", function () {
         var nav = document.querySelector("nav");
-        nav.classList.toggle("menu", window.scrollY > 0);
+        var slidePhone = document.getElementById("sec-tabz");
+
+        // Obtener la posición del scroll y el límite superior e inferior de #slide-phone
+        var scrollY = window.scrollY;
+        var slidePhoneTop = slidePhone.offsetTop - 10; // 20px antes de entrar
+        var slidePhoneBottom =
+          slidePhoneTop + (slidePhone.offsetHeight * 7) / 8; // 3/8 del contenedor
+
+        // Verificar si el scroll está dentro del área de #slide-phone
+        var isInsideSlidePhone =
+          scrollY >= slidePhoneTop && scrollY <= slidePhoneBottom;
+
+        // Agregar o quitar la clase según la condición
+        nav.classList.toggle("menu", !isInsideSlidePhone);
       });
     </script>
 

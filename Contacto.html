@@ -543,21 +543,20 @@
     <script type="text/javascript">
       window.addEventListener("scroll", function () {
         var nav = document.querySelector("nav");
-        var secForm = document.getElementById("sec-form");
+        var slidePhone = document.getElementById("sec-form");
 
-        // Obtener la posición del scroll y el límite superior e inferior de #sec-form
+        // Obtener la posición del scroll y el límite superior e inferior de #slide-phone
         var scrollY = window.scrollY;
-        var secFormTop = secForm.offsetTop - 50; // 200px antes de entrar
-        var secFormBottom = secForm.offsetTop + secForm.offsetHeight - 200; // 200px antes de salir
+        var slidePhoneTop = slidePhone.offsetTop - 50; // 20px antes de entrar
+        var slidePhoneBottom =
+          slidePhoneTop + (slidePhone.offsetHeight * 3) / 8; // 3/8 del contenedor
 
-        // Verificar si el scroll está dentro del área de #sec-form
-        var isInsideSecForm = scrollY >= secFormTop && scrollY <= secFormBottom;
+        // Verificar si el scroll está dentro del área de #slide-phone
+        var isInsideSlidePhone =
+          scrollY >= slidePhoneTop && scrollY <= slidePhoneBottom;
 
-        // Verificar si el scroll está en la parte superior de la página
-        var isAtTop = scrollY === 0;
-
-        // Agregar o quitar la clase según las condiciones
-        nav.classList.toggle("menu", !isInsideSecForm && !isAtTop);
+        // Agregar o quitar la clase según la condición
+        nav.classList.toggle("menu", !isInsideSlidePhone);
       });
     </script>
 
