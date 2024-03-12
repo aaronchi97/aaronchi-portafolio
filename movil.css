@@ -646,6 +646,11 @@
   .bar-anchor {
     margin: 20px 10px;
   }
+
+  html ul.tabs-t1 li.active,
+  html ul.tabs-t1 li.active a:hover {
+    border: none;
+  }
 }
 
 @media screen and (max-width: 400px) {

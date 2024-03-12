@@ -341,7 +341,7 @@ input:hover[type="submit"] {
 .contenido {
   width: 70%;
   height: 500px;
-  background-color: white;
+
   /* border: 1px red solid; */
   display: flex;
   flex-direction: column;
@@ -349,10 +349,16 @@ input:hover[type="submit"] {
   align-items: center;
   gap: 0;
   position: relative;
-  background-image: url(img/fondos/fondo-formulario.jpg);
+  background: linear-gradient(
+      50deg,
+      rgba(40, 42, 55, 0.9) 50%,
+      rgba(40, 42, 55, 0.4)
+    ),
+    url(img/fondos/oneship.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  border-radius: 20px;
 }
 
 #btncerrar i {
@@ -367,18 +373,18 @@ input:hover[type="submit"] {
 
 .contenido h1 {
   font-size: var(--subtitulo-size);
-  font-family: var(--subtitulo-size);
+  font-family: var(--txt-decorativo);
   font-weight: 800;
-  color: var(--color-azul);
+  color: white;
   width: 400px;
   margin-top: 100px;
 }
 .contenido p {
   font-size: var(--txt-parrafo);
-  font-family: var(--txt-parrafo);
+  font-family: var(--txt-titulo);
   font-weight: 400;
-  color: var(--color-azul);
-  width: 400px;
+  color: var(--color-secundario2);
+  width: 70%;
   margin-bottom: 60px;
 }
 

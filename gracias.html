@@ -40,7 +40,6 @@
 
     <!---Responsiveslides-->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src="responsiveslides.min.js"></script>
 
     <!-- Font awesome-->
     <script
@@ -60,17 +59,19 @@
 
     <script src="wow.min.js"></script>
 
-    <title>Contacto</title>
+    <title>PROYECTO</title>
   </head>
   <body>
     <nav>
-      <a class="wow animate__animated animate__zoomInRight" href="index.html"
-        >ARC</a
-      >
+      <!-- <figure class="logoPrincipal">
+        <img src="img/logo.png" alt="" />
+      </figure> -->
+      <a class="wow animate__animated animate__zoomInRight">ARC</a>
 
       <ul class="menu-list">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="servicios.html"> Proyectos</a></li>
+        <li><a href="index.html"> Home</a></li>
+        <li><a href="servicios.html">Proyectos</a></li>
+
         <li><a href="Contacto.html"> Contacto</a></li>
         <li>
           <a id="icono-buscar" href="#"
@@ -87,10 +88,111 @@
     <div class="menu-phone" id="cajamenu">
       <ul class="menu-list-phone">
         <li><a href="index.html"> Home</a></li>
-        <li><a href="servicios.html"> Proyectos</a></li>
+        <li><a href="servicios.html">Proyectos</a></li>
 
         <li><a href="Contacto.html"> Contacto</a></li>
       </ul>
+    </div>
+
+    <!-- ------------------------------------------------ -->
+
+    <!-- <div id="div-espacio"></div> -->
+
+    <!-- ------------------------------------------------ -->
+
+    <!-- -----------SLIDE CON FLECHAS------------------------- -->
+
+    <script src="responsiveslides.min.js"></script>
+
+    <div class="callbacks_container">
+      <a class="flecha-slide-left" href="">
+        <i class="fa-solid fa-chevron-left"></i>
+      </a>
+      <a class="flecha-slide-right" href="">
+        <i class="fa-solid fa-chevron-right"></i>
+      </a>
+      <ul class="rslides" id="slider4">
+        <li>
+          <!-- filtro en .rslides img -->
+          <img src="img/boda/foto1011.jpg" alt="" />
+          <article class="articulo-presentacion">
+            <h2>Hola, que tal!</h2>
+            <h1>
+              Soy <span class="nombre">Aarón</span
+              ><span class="apellido"> Chi</span>
+            </h1>
+            <!-- <p>Con Lovex haz tus sueños realidad</p> -->
+            <div class="botones-presentacion">
+              <section
+                class="portfolio-experiment wow animate__animated animate__pulse animate__infinite infinite"
+              >
+                <a>
+                  <span class="text"
+                    >OBTENER CV
+                    <i
+                      class="fa-solid fa-file-arrow-down"
+                      style="color: #ff6213"
+                    ></i
+                  ></span>
+                  <span class="line -right"></span>
+                  <span class="line -top"></span>
+                  <span class="line -left"></span>
+                  <span class="line -bottom"></span>
+                </a>
+              </section>
+            </div>
+          </article>
+        </li>
+
+        <li>
+          <img src="img/boda/foto3.jpg" alt="" />
+          <article class="articulo-presentacion">
+            <h2>Apoyo en todo lo que necesites</h2>
+            <h1>Diseño web y bases de datos</h1>
+            <!-- <p>Con Lovex haz tus sueños realidad</p> -->
+            <div class="botones-presentacion">
+              <!-- <div class="boton-presentacion1">
+                  <a id="btn-acercade" href="Contacto.html">Acerca de </a>
+                </div> -->
+              <div class="boton-presentacion2">
+                <a id="btn-sabermas2" href="servicios.html">Saber más</a>
+              </div>
+            </div>
+          </article>
+        </li>
+        <li>
+          <img src="img/boda/foto2.jpg" alt="" />
+          <article class="articulo-presentacion">
+            <h2>Gracias por ver!</h2>
+            <h1>Ponte en contacto conmigo</h1>
+            <!-- <p>Con Lovex haz tus sueños realidad</p> -->
+            <div class="botones-presentacion">
+              <!-- <div class="boton-presentacion1">
+                  <a id="btn-acercade" href="Contacto.html">Acerca de </a>
+                </div> -->
+              <div class="boton-presentacion2">
+                <a id="btn-sabermas3" href="Contacto.html">Contacto</a>
+              </div>
+            </div>
+          </article>
+        </li>
+      </ul>
+    </div>
+
+    <!-- ------------------------------------------------ -->
+
+    <!-------------------------MODAL--------------------------------------------->
+
+    <div id="nodal">
+      <section class="contenido ancho">
+        <div id="btncerrar">
+          <i class="fa-solid fa-rectangle-xmark"></i>
+        </div>
+
+        <h1>Envío realizado!</h1>
+
+        <p>¡Te agradezco por darme una oportunidad!</p>
+      </section>
     </div>
 
     <!------------------------------MODAL ICONO BUSCAR--------------------------------------------->
@@ -103,193 +205,6 @@
         ></a>
       </section>
     </div>
-
-    <!-- <div id="div-espacio"></div> -->
-
-    <!----------------------------PRESENTACION SECCIONES------------------------------------------------->
-
-    <section class="sec-fotos">
-      <ul class="rslides2 rslide-parte1-contacto">
-        <li><img src="img/boda/foto4.jpg" alt="" /></li>
-        <li><img src="img/proyectos/texas/texas5.jpeg" alt="" /></li>
-
-        <li><img src="img/proyectos/vistas/mid1.jpeg" alt="" /></li>
-      </ul>
-
-      <ul class="rslides2 rslide-parte2-contacto">
-        <!-- <li><img src="img/galeria/foto21.jpeg" alt="" /></li> -->
-        <li><img src="img/proyectos/texas/texas2.jpg" alt="" /></li>
-        <li><img src="img/galeria/foto20.jpeg" alt="" /></li>
-        <li><img src="img/galeria/foto28.jpeg" alt="" /></li>
-      </ul>
-
-      <div class="info">
-        <h1>Contácto</h1>
-      </div>
-    </section>
-
-    <br />
-
-    <section id="contact-form" class="contacto-form">
-      <section class="sec1">
-        <div class="wow animate__animated animate__fadeInLeft acordeon">
-          <div class="acordeon_titulo titulo1">
-            <div class="iconos">
-              <i class="fa-solid fa-plus mas1"></i>
-              <i class="fa-solid fa-minus menos1"></i>
-            </div>
-            <h2>Dirección</h2>
-          </div>
-        </div>
-        <div class="acordeon_contenido contenido1">
-          <i class="fa-solid fa-location-dot"></i>
-          <p>Calle 37 s/n Chichi Suárez</p>
-        </div>
-
-        <div class="wow animate__animated animate__fadeInLeft acordeon">
-          <div class="acordeon_titulo titulo2">
-            <div class="iconos">
-              <i class="fa-solid fa-plus mas2"></i>
-              <i class="fa-solid fa-minus menos2"></i>
-            </div>
-            <h2>Teléfono</h2>
-          </div>
-        </div>
-        <div class="acordeon_contenido contenido2">
-          <i class="fa-solid fa-phone-volume"></i>
-          <p>(+52) 999-309-3310</p>
-        </div>
-
-        <div class="wow animate__animated animate__fadeInLeft acordeon">
-          <div class="acordeon_titulo titulo3">
-            <div class="iconos">
-              <i class="fa-solid fa-plus mas3"></i>
-              <i class="fa-solid fa-minus menos3"></i>
-            </div>
-            <h2>E-mail</h2>
-          </div>
-
-          <div class="acordeon_contenido contenido3">
-            <i class="fa-solid fa-envelope"></i>
-            <p>aaronchi97@outlook.com</p>
-          </div>
-        </div>
-
-        <div class="wow animate__animated animate__fadeInLeft acordeon">
-          <div class="acordeon_titulo titulo4">
-            <div class="iconos">
-              <i class="fa-solid fa-plus mas4"></i>
-              <i class="fa-solid fa-minus menos4"></i>
-            </div>
-            <h2>Horario de atención</h2>
-          </div>
-
-          <div class="acordeon_contenido contenido4">
-            <i class="fa-solid fa-clock"></i>
-            <p>Lun - Sab (9:00AM - 05:30PM)</p>
-          </div>
-        </div>
-      </section>
-
-      <section id="sec-form" class="form">
-        <div class="wow animate__animated animate__fadeInDown fondo-form">
-          <h1>Contactanos</h1>
-          <br />
-          <p>
-            Si tienes alguna pregunta ó duda por favor estaré agradecido de que
-            te contactes conmigo:
-          </p>
-
-          <form
-            action="https://formsubmit.co/e19081465@itmerida.edu.mx"
-            method="POST"
-          >
-            <label for="name">Nombre:</label>
-            <input type="text" id="name" name="name" placeholder="Nombre" />
-
-            <label for="email">Email:</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="Correo electrónico"
-            />
-
-            <input
-              type="hidden"
-              name="_autoresponse"
-              value="Gracias por contactarte conmigo! Por favor, espera mi respuesta en breve.
-              
-              Atte:  Aarón Chi Béjar"
-            />
-
-            <label for="phone">Asunto:</label>
-            <input
-              type="text"
-              id="asunto"
-              name="subject"
-              placeholder="Asunto"
-            />
-
-            <label for="phone">Número telefónico:</label>
-            <input
-              type="tel"
-              id="phone"
-              name="comments"
-              placeholder="Número telefónico"
-            />
-            <label for="message">Mensaje:</label>
-            <textarea
-              cols="15"
-              rows="5"
-              id="message"
-              name="comments"
-              placeholder="Comentarios"
-            ></textarea>
-
-            <input
-              type="hidden"
-              name="_blacklist"
-              value="spammy pattern, banned term, phrase"
-            />
-
-            <input
-              type="hidden"
-              name="_next"
-              value="https://aaronchi97.github.io/aaronchi-portafolio/gracias.html"
-            />
-
-            <input class="enviar-form" type="submit" value="Enviar" />
-          </form>
-        </div>
-      </section>
-    </section>
-
-    <!-- TARJTAS USUARIO------------------------------------------- -->
-    <!-- 
-    <section class="user-cards-contacto ancho">
-      <article>
-        <figure>
-          <img src="img/galeria/foto1.jpg" alt="" />
-          <div class="user-cards-contacto-redes-s">
-            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-          </div>
-        </figure>
-        <div class="user-cards-contacto-text">
-          <h3>Ivan Cetz</h3>
-          <p>(999)-00-65-11</p>
-        </div>
-      </article>
-    </section> -->
-
-    <!-- 
-    CURVAS ---------------------------------------------------------------------- -->
-
-    <!-- 
-    CURVAS ---------------------------------------------------------------------- -->
 
     <svg
       width="100%"
@@ -444,8 +359,11 @@
       </div>
     </footer>
 
+    <!---------------------------FUNCIONES SCRIPTS------------------------>
+
     <script>
-      //MENU
+      //MENU----------------------------------------
+
       $("#barramenu").click(function () {
         //con slideToggle se abre y cierra el menu, al dar click obviamente
         $("#cajamenu").slideToggle();
@@ -454,66 +372,42 @@
       $("#barramenu").click(function () {
         $("#div-espacio").toggleClass("desaparecer-div");
       });
-      //RESPONSIVESLIDES
-      $(function () {
-        $(".rslides2").responsiveSlides({});
-      });
 
-      $(".titulo1").click(function () {
-        $(".contenido1").slideToggle();
-        $(".mas1").toggleClass("desaparecer");
-        $(".titulo1").toggleClass("text");
-      });
+      //WOW-----------------------------------------------------------------------
+      new WOW().init();
 
-      $(".titulo2").click(function () {
-        $(".contenido2").slideToggle();
-        $(".mas2").toggleClass("desaparecer");
-        $(".titulo2").toggleClass("text");
-      });
+      // Espera a que el documento HTML esté completamente cargado
+      document.addEventListener("DOMContentLoaded", function () {
+        // Selecciona el modal
+        var nodal = document.getElementById("nodal");
 
-      $(".titulo3").click(function () {
-        $(".contenido3").slideToggle();
-        $(".mas3").toggleClass("desaparecer");
-        $(".titulo3").toggleClass("text");
-      });
+        // Muestra el modal al cargar la página
+        nodal.style.display = "flex";
 
-      $(".titulo4").click(function () {
-        $(".contenido4").slideToggle();
-        $(".mas4").toggleClass("desaparecer");
-        $(".titulo4").toggleClass("text");
-      });
+        // Cierra el modal al hacer clic en el botón de cerrar
+        var btncerrar = document.getElementById("btncerrar");
+        btncerrar.onclick = function () {
+          nodal.style.display = "none";
+        };
 
-      //formulario
-      var form = document.getElementById("myForm");
+        // Cierra el modal al hacer clic en cualquier parte fuera del mismo
+        window.onclick = function (event) {
+          if (event.target == nodal) {
+            nodal.style.display = "none";
+          }
+        };
 
-      form.addEventListener("submit", function (event) {
-        event.preventDefault(); // Evita que el formulario se envíe automáticamente
-
-        var nameInput = document.getElementById("name");
-        var emailInput = document.getElementById("email");
-        var messageInput = document.getElementById("message");
-
-        if (nameInput.value === "") {
-          alert("Por favor, ingresa tu nombre.");
-          return;
-        }
-
-        if (emailInput.value === "") {
-          alert("Por favor, ingresa tu correo electrónico.");
-          return;
-        }
-
-        if (messageInput.value === "") {
-          alert("Por favor, ingresa tu mensaje.");
-          return;
-        }
-
-        form.reset(); // Restablece los campos del formulario después de enviarlo
+        // Cierra el modal al enviar el formulario
+        var myForm = document.getElementById("myForm");
+        myForm.onsubmit = function () {
+          nodal.style.display = "none";
+          // Puedes agregar aquí el código para enviar el formulario si es necesario
+          return false; // Evita que se envíe el formulario por defecto
+        };
       });
 
       //boton subir------------------------------------------------------------------------------
 
-      // Obtener referencia al enlace
       var btnup = document.getElementById("btnUp");
 
       btnup.addEventListener("click", function (event) {
@@ -522,7 +416,7 @@
         // Hacer scroll hasta la parte superior de la página
         window.scrollTo({
           top: 0,
-          behavior: "smooth", // Para un desplazamiento suave
+          behavior: "smooth",
         });
       });
 
@@ -535,33 +429,17 @@
         }
       });
 
-      //WOW-----------------------------------------------------------------------
-      new WOW().init();
-    </script>
+      //CARRUSEL FOTOS GALERIA
 
-    <!-- FUNCION DE MENU VISIBLE CON SCROLL--------------------------------------- -->
-    <script type="text/javascript">
-      window.addEventListener("scroll", function () {
-        var nav = document.querySelector("nav");
-        var secForm = document.getElementById("sec-form");
+      //CARRUSEL FOTOS GALERY
+      $(document).ready(function () {
+        $(".carru-prin").tinycarousel({ interval: true });
 
-        // Obtener la posición del scroll y el límite superior e inferior de #sec-form
-        var scrollY = window.scrollY;
-        var secFormTop = secForm.offsetTop - 50; // 200px antes de entrar
-        var secFormBottom = secForm.offsetTop + secForm.offsetHeight - 200; // 200px antes de salir
-
-        // Verificar si el scroll está dentro del área de #sec-form
-        var isInsideSecForm = scrollY >= secFormTop && scrollY <= secFormBottom;
-
-        // Verificar si el scroll está en la parte superior de la página
-        var isAtTop = scrollY === 0;
-
-        // Agregar o quitar la clase según las condiciones
-        nav.classList.toggle("menu", !isInsideSecForm && !isAtTop);
+        var slider7 = $("carru-prin").data("plugin_tinycarousel");
       });
-    </script>
 
-    <script>
+      //MODAL-----------------------------------------
+
       //MODAL BOTON BUCAR------------------------------------------------------------------
       var nodal2 = document.getElementById("nodal2");
       var btnbucar = document.getElementById("icono-buscar");
@@ -602,6 +480,84 @@
           "https://www.google.com/search?q=" + encodedSearchTerm;
         window.location.href = googleSearchUrl;
       }
+
+      /*  var slider = document.getElementById("slider1");
+        var abrirbtnmenu = document.getElementById("barramenu")
+
+        abrirbtnmenu.onclick = function() {
+        slider.style.marginTop = 0;
+    }; */
+
+      //FORMULARIO----------------------------------------------------------------
+
+      //RESPONSIVE SLIDES
+
+      $(function () {
+        $(".rslides").responsiveSlides({ timeout: 2000 });
+      });
+
+      $(".titulo1").click(function () {
+        $(".contenido1").slideToggle();
+        $(".mas1").toggleClass("desaparecer");
+        $(".titulo1").toggleClass("text");
+      });
+
+      $(".titulo2").click(function () {
+        $(".contenido2").slideToggle();
+        $(".mas2").toggleClass("desaparecer");
+        $(".titulo2").toggleClass("text");
+      });
+
+      $(".titulo3").click(function () {
+        $(".contenido3").slideToggle();
+        $(".mas3").toggleClass("desaparecer");
+        $(".titulo3").toggleClass("text");
+      });
+
+      $(".titulo4").click(function () {
+        $(".contenido4").slideToggle();
+        $(".mas4").toggleClass("desaparecer");
+        $(".titulo4").toggleClass("text");
+      });
+    </script>
+
+    <script>
+      $(function () {
+        $("#slider4").responsiveSlides({
+          auto: false,
+          pager: false,
+          nav: true,
+          speed: 500,
+          namespace: "callbacks",
+          before: function () {
+            $(".events").append("<li>before event fired.</li>");
+          },
+          after: function () {
+            $(".events").append("<li>after event fired.</li>");
+          },
+        });
+      });
+    </script>
+
+    <!-- FUNCION DE MENU VISIBLE CON SCROLL--------------------------------------- -->
+    <script type="text/javascript">
+      window.addEventListener("scroll", function () {
+        var nav = document.querySelector("nav");
+        var slidePhone = document.getElementById("slide-phone");
+
+        // Obtener la posición del scroll y el límite superior e inferior de #slide-phone
+        var scrollY = window.scrollY;
+        var slidePhoneTop = slidePhone.offsetTop - 20; // 200px antes de entrar
+        var slidePhoneBottom =
+          slidePhone.offsetTop + slidePhone.offsetHeight + 20; // 200px antes de salir
+
+        // Verificar si el scroll está dentro del área de #slide-phone
+        var isInsideSlidePhone =
+          scrollY >= slidePhoneTop && scrollY <= slidePhoneBottom;
+
+        // Agregar o quitar la clase según la condición
+        nav.classList.toggle("menu", !isInsideSlidePhone);
+      });
     </script>
   </body>
 </html>
