@@ -1,0 +1,1134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Tiny Carrusel-->
+    <link
+      rel="stylesheet"
+      href="tinycarousel.css"
+      type="text/css"
+      media="screen"
+    />
+
+    <!-- Hover-master-->
+    <link rel="stylesheet" href="hover-master/css/hover.css" />
+    <!-- Galeria slide fancybox -->
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="fancybox/jquery.fancybox.css"
+    />
+
+    <!-- Animaciones -->
+
+    <link rel="stylesheet" type="text/css" href="animate.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!--ESTILOS GENERALES  -->
+    <link rel="stylesheet" href="estilo.css" />
+    <link rel="stylesheet" href="movil.css" />
+
+    <!-- java script -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+
+    <!---Responsiveslides-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+    <!-- Font awesome-->
+    <script
+      src="https://kit.fontawesome.com/2ee0245f3d.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Galeria slide fancybox -->
+
+    <script src="fancybox/jquery.fancybox.js"></script>
+
+    <!-- build:js jquery.tinycarousel.js -->
+
+    <script type="text/javascript" src="jquery.tinycarousel.min.js"></script>
+
+    <!-- Animaciones -->
+
+    <script src="wow.min.js"></script>
+
+    <title>PROYECTO</title>
+  </head>
+  <body>
+    <nav>
+      <!-- <figure class="logoPrincipal">
+        <img src="img/logo.png" alt="" />
+      </figure> -->
+      <a class="wow animate__animated animate__zoomInRight">ARC</a>
+
+      <ul class="menu-list">
+        <li><a href="index.html"> Home</a></li>
+        <li><a href="servicios.html">Proyectos</a></li>
+
+        <li><a href="Contacto.html"> Contacto</a></li>
+        <li>
+          <a id="icono-buscar" href="#"
+            ><i class="fa-sharp fa-solid fa-magnifying-glass"></i
+          ></a>
+        </li>
+      </ul>
+
+      <div id="barramenu">
+        <i class="icon fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <div class="menu-phone" id="cajamenu">
+      <ul class="menu-list-phone">
+        <li><a href="index.html"> Home</a></li>
+        <li><a href="servicios.html">Proyectos</a></li>
+
+        <li><a href="Contacto.html"> Contacto</a></li>
+      </ul>
+    </div>
+
+    <!-- ------------------------------------------------ -->
+
+    <!-- <div id="div-espacio"></div> -->
+
+    <!-- ------------------------------------------------ -->
+
+    <!-- -----------SLIDE CON FLECHAS------------------------- -->
+
+    <script src="responsiveslides.min.js"></script>
+
+    <div class="callbacks_container">
+      <a class="flecha-slide-left" href="">
+        <i class="fa-solid fa-chevron-left"></i>
+      </a>
+      <a class="flecha-slide-right" href="">
+        <i class="fa-solid fa-chevron-right"></i>
+      </a>
+      <ul class="rslides" id="slider4">
+        <li>
+          <!-- filtro en .rslides img -->
+          <img src="img/boda/foto1011.jpg" alt="" />
+          <article class="articulo-presentacion">
+            <h2>Hola, que tal!</h2>
+            <h1>
+              Soy <span class="nombre">Aarón</span
+              ><span class="apellido"> Chi</span>
+            </h1>
+            <!-- <p>Con Lovex haz tus sueños realidad</p> -->
+            <div class="botones-presentacion">
+              <section
+                class="portfolio-experiment wow animate__animated animate__pulse animate__infinite infinite"
+              >
+                <a>
+                  <span class="text"
+                    >OBTENER CV
+                    <i
+                      class="fa-solid fa-file-arrow-down"
+                      style="color: #ff6213"
+                    ></i
+                  ></span>
+                  <span class="line -right"></span>
+                  <span class="line -top"></span>
+                  <span class="line -left"></span>
+                  <span class="line -bottom"></span>
+                </a>
+              </section>
+            </div>
+          </article>
+        </li>
+        <li>
+          <img src="img/boda/foto3.jpg" alt="" />
+          <article class="articulo-presentacion">
+            <h2>Apoyo en todo lo que necesites</h2>
+            <h1>Diseño web y bases de datos</h1>
+            <!-- <p>Con Lovex haz tus sueños realidad</p> -->
+            <div class="botones-presentacion">
+              <!-- <div class="boton-presentacion1">
+                <a id="btn-acercade" href="Contacto.html">Acerca de </a>
+              </div> -->
+              <div class="boton-presentacion2">
+                <a id="btn-sabermas2" href="servicios.html">Saber más</a>
+              </div>
+            </div>
+          </article>
+        </li>
+        <li>
+          <img src="img/boda/foto2.jpg" alt="" />
+          <article class="articulo-presentacion">
+            <h2>Gracias por ver!</h2>
+            <h1>Ponte en contacto conmigo</h1>
+            <!-- <p>Con Lovex haz tus sueños realidad</p> -->
+            <div class="botones-presentacion">
+              <!-- <div class="boton-presentacion1">
+                <a id="btn-acercade" href="Contacto.html">Acerca de </a>
+              </div> -->
+              <div class="boton-presentacion2">
+                <a id="btn-sabermas3" href="Contacto.html">Contacto</a>
+              </div>
+            </div>
+          </article>
+        </li>
+      </ul>
+
+      <figure class="png-titulo">
+        <img src="img/png/decoracion1.png" alt="" />
+      </figure>
+
+      <figure class="png2-titulo">
+        <img src="img/png/02.png" alt="" />
+      </figure>
+    </div>
+
+    <!-- ------------------------------------------------ -->
+
+    <!-- TARJETAS-------------------------------------------- -->
+
+    <section class="tarjetas">
+      <article class="wow animate__animated animate__fadeInLeft tarjeta">
+        <h1>Diseño Web</h1>
+        <i class="fa-brands fa-html5"></i>
+        <i class="fa-brands fa-node"></i>
+      </article>
+
+      <article class="wow animate__animated animate__fadeInLeft tarjeta">
+        <h1>Bases de datos</h1>
+        <i class="fa-brands fa-php"></i>
+        <i class="fa-solid fa-database"></i>
+      </article>
+
+      <article class="wow animate__animated animate__fadeInLeft tarjeta">
+        <h1>Diseño</h1>
+        <i class="fa-brands fa-js"></i>
+        <img
+          src="data:image/png;base64,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"
+        />
+      </article>
+
+      <article class="wow animate__animated animate__fadeInLeft tarjeta">
+        <h1>Redes y Data Science</h1>
+        <i class="fa-brands fa-python"></i>
+        <i class="fa-solid fa-network-wired"></i>
+      </article>
+    </section>
+
+    <!-------------------------MODAL--------------------------------------------->
+
+    <div id="nodal">
+      <section class="contenido ancho">
+        <div id="btncerrar">
+          <i class="fa-solid fa-rectangle-xmark"></i>
+        </div>
+
+        <h1>Contact Us</h1>
+
+        <p>
+          Si tienes alguna pregunta acerca de nuestros servicios entonces llena
+          el formulario siguiente:
+        </p>
+
+        <form id="myForm" action="" method="POST">
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" name="name" placeholder="Nombre" />
+
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Correo electrónico"
+          />
+
+          <label for="message">Mensaje:</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Mensaje"
+          ></textarea>
+
+          <input type="submit" value="Enviar" />
+        </form>
+
+        <div class="btnf">
+          <a id="btnform" href="#"> submit</a>
+        </div>
+      </section>
+    </div>
+
+    <!------------------------------MODAL ICONO BUSCAR--------------------------------------------->
+
+    <div id="nodal2">
+      <section class="contenido-buscar ancho">
+        <input id="btnserch" type="text" placeholder="Buscar..." />
+        <a href="https://www.google.com/search " class="search-link"
+          ><i class="fa-solid fa-magnifying-glass"></i
+        ></a>
+      </section>
+    </div>
+
+    <!-------------------SECCION ABOUT----------------------------------------------------------------->
+    <!-- <div class="ancho" style="height: 150px; overflow: hidden">
+      <svg
+        viewBox="0 0 500 150"
+        preserveAspectRatio="none"
+        style="height: 100%; width: 100%"
+      >
+        <path
+          d="M-0.00,50.10 C192.81,195.64 308.50,-47.27 501.50,56.26 L500.00,150.33 L-0.00,150.33 Z"
+          style="stroke: none; fill: var(--color-fondo)"
+        ></path>
+      </svg>
+    </div> -->
+
+    <section class="sec-about-1 ancho">
+      <section class="sec-about-artic">
+        <article
+          id="artic2"
+          class="wow animate__animated animate__fadeInDownBig artic"
+        >
+          <figure
+            class="imagen-artic wow animate__animated animate__flip animate__slow 2s"
+          >
+            <img src="img/boda/foto1002.jpg" alt="" />
+          </figure>
+          <h1>AARÓN ENRIQUE CHI BÉJAR</h1>
+          <p>
+            Soy un estudiante apasionado de Ingeniería en Sistemas
+            Computacionales. Actualmente especializándome en el área de las
+            tecnologías de la información. Me caracterizo por mi entusiasmo por
+            el aprendizaje continuo.
+          </p>
+          <div class="iconos-artic2">
+            <a href="https://www.facebook.com/aaron.chi1?mibextid=ZbWKwL"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a href="https://www.instagram.com/aaron__cb?igsh=bTFoYXhiajhuY2Y0">
+              <i class="fa-brands fa-instagram"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/aaron-enrique-chi-bejar-5b9175295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            >
+              <i class="fa-brands fa-linkedin"></i
+            ></a>
+
+            <a href="https://twitter.com/aaronchi97"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+          </div>
+        </article>
+        <!-- <div style="height: 100%; width: 100%; overflow: hidden">
+          <svg
+            viewBox="0 0 500 150"
+            preserveAspectRatio="none"
+            style="height: 100%; width: 60%"
+          >
+            <path
+              d="M208.09,0.00 C152.69,67.25 262.02,76.15 200.80,150.33 L-0.00,150.33 L-0.00,0.00 Z"
+              style="stroke: none; fill: #08f"
+            ></path>
+          </svg>
+        </div> -->
+      </section>
+
+      <!-- <section class="sec-about-artic2">
+        <figure class="wow animate__animated animate__fadeInDown imagen-artic2">
+          <img src="img/galeria/foto21.jpeg" alt="" />
+        </figure>
+      </section> -->
+
+      <img
+        class="wow animate__animated animate__fadeInDown"
+        id="icon-about3"
+        src="img/png/svg3.svg"
+        alt=""
+      />
+    </section>
+
+    <div class="ancho wave1" style="height: 150px; overflow: hidden">
+      <svg
+        viewBox="0 0 500 150"
+        preserveAspectRatio="none"
+        style="height: 100%; width: 100%"
+      >
+        <path
+          d="M-0.00,50.10 C187.17,189.66 279.72,-89.09 507.71,91.10 L500.00,0.00 L-0.00,0.00 Z"
+          style="stroke: none; fill: var(--color-fondo3)"
+        ></path>
+      </svg>
+    </div>
+
+    <!--------------------------DIVISOR DE SECCIONES---------------------------------------------------------------------------------------------->
+    <div class="wow animate__animated animate__fadeInUp div-fancy ancho">
+      <div class="texto-div-fancy">
+        <p>Por un mundo</p>
+        <h1>EN EL CUAL ESTEMOS SIEMPRE</h1>
+        <h2>CONECTADOS</h2>
+      </div>
+
+      <!-- <img id="img-div-fancy2" src="img/png/divider.png" alt="" />
+      <img id="img-div-fancy" src="img/png/02.png" alt="" /> -->
+    </div>
+
+    <!-------------------SECCION ICONO----------------------------------------------------------------->
+
+    <section class="sec-about-icono ancho">
+      <!-- <img
+        class="wow animate__animated animate__fadeInRight"
+        id="icon-about"
+        src="img/png/svg1.svg"
+        alt=""
+      /> -->
+      <img id="icon-about2" src="img/png/svg3.svg" alt="" />
+
+      <section class="sec2 wow animate__animated animate__wobble">
+        <div class="titulosec2">
+          <h2>Skills</h2>
+          <br /><br />
+
+          <div class="subsk">
+            <h1>Front End</h1>
+            <h3>90%</h3>
+          </div>
+
+          <div class="porcent">
+            <div
+              class="wow animate__animated animate__fadeInLeft animate__slow 3s sk"
+            ></div>
+          </div>
+          <br />
+
+          <div class="subsk">
+            <h1>Network</h1>
+            <h3>75%</h3>
+          </div>
+
+          <div class="porcent">
+            <div
+              class="wow animate__animated animate__fadeInLeft animate__slow 3s sk2"
+            ></div>
+          </div>
+          <br />
+
+          <div class="subsk">
+            <h1>Back End</h1>
+            <h3>80%</h3>
+          </div>
+
+          <div class="porcent">
+            <div
+              class="wow animate__animated animate__fadeInLeft animate__slow 3s sk3"
+            ></div>
+          </div>
+          <br />
+
+          <div class="subsk">
+            <h1>Editing</h1>
+            <h3>75%</h3>
+          </div>
+
+          <div class="porcent">
+            <div
+              class="wow animate__animated animate__fadeInLeft animate__slow 3s sk4"
+            ></div>
+          </div>
+          <br />
+        </div>
+      </section>
+    </section>
+
+    <!--------------------------FANCY BOX---------------------------------------------------------------------------------------------->
+
+    <!-- <section id="galeria">
+      <a
+        href="img/galeria/foto1.jpg"
+        class="fancybox"
+        title="FOTO 1"
+        rel="gallery1"
+      >
+        <img src="img/galeria/foto1.jpg" alt="" />
+        <div class="fondo-opaco"></div>
+      </a>
+
+      <a
+        href="img/galeria/foto4.jpg"
+        class="fancybox"
+        title="FOTO 2"
+        rel="gallery1"
+      >
+        <img src="img/galeria/foto4.jpg" alt="" />
+        <div class="fondo-opaco"></div>
+      </a>
+
+      <a
+        href="img/galeria/foto8.jpg"
+        class="fancybox visible"
+        title="FOTO 3"
+        rel="gallery1"
+      >
+        <img src="img/galeria/foto8.jpg" alt="" />
+        <div class="fondo-opaco"></div>
+      </a>
+
+      <a
+        href="img/galeria/foto2.jpg"
+        class="fancybox"
+        title="FOTO 4"
+        rel="gallery1"
+      >
+        <img src="img/galeria/foto2.jpg" alt="" />
+        <div class="fondo-opaco"></div>
+      </a>
+
+      <a
+        href="img/galeria/foto3.jpg"
+        class="fancybox"
+        title="FOTO 5"
+        rel="gallery1"
+      >
+        <img src="img/galeria/foto3.jpg" alt="" />
+        <div class="fondo-opaco"></div>
+      </a>
+
+      <a
+        href="img/galeria/foto10.jpg"
+        class="fancybox"
+        title="FOTO 6"
+        rel="gallery1"
+      >
+        <img src="img/galeria/foto10.jpg" alt="" />
+        <div class="fondo-opaco"></div>
+      </a>
+    </section>
+
+     --------------------------PRESENTACION SECCIONES------------------------------------------------->
+
+    <!---------------------------VIDEO----------------------------------------------------------------------------------------->
+
+    <section class="sec-video ancho">
+      <a href="#" id="openModal"><i class="fa-solid fa-circle-play"></i></a>
+    </section>
+
+    <div id="modalContainer" class="modal-container">
+      <div class="modal-content">
+        <span id="closeModal" class="close-modal"
+          ><i class="fa-solid fa-circle-xmark"></i
+        ></span>
+        <article class="video-responsive">
+          <div class="video-container">
+            <iframe
+              id="videoFrame"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/_qgX1Ekz9hQ?si=7UuQ8CQ7_x3keM0U"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <!--------------------------DIVISOR DE SECCIONES---------------------------------------------------------------------------------------------->
+    <!-- <div class="wow animate__animated animate__fadeInTopLeft div-fancy ancho">
+      <div class="texto-div-fancy">
+        <p>Vive tu boda al máximo</p>
+        <h1>Capturando los mejores</h1>
+        <h2>Momentos</h2>
+      </div>
+
+      <img id="img-div-fancy2" src="img/png/divider.png" alt="" />
+      <img id="img-div-fancy" src="img/png/02.png" alt="" />
+    </div> -->
+
+    <!--------------------------------CARRUSEL TARJETA------------------------------------------------------------------>
+
+    <section class="carru-prin ancho">
+      <div id="viewport-prin" class="viewport">
+        <ul id="overview-prin" class="overview">
+          <li>
+            <figure
+              class="wow animate__animated animate__fadeInLeft img-tarjeta-prin"
+            >
+              <img src="img/proyectos/vistas/unam1.jpeg" alt="" />
+              <div class="overlay">
+                <a href="servicios.html"><i class="fa-solid fa-eye"></i></a>
+              </div>
+            </figure>
+          </li>
+
+          <li>
+            <figure
+              class="wow animate__animated animate__fadeInLeft img-tarjeta-prin"
+            >
+              <img src="img/proyectos/vistas/mid1.jpeg" alt="" />
+              <div class="overlay">
+                <a href="servicios.html"><i class="fa-solid fa-eye"></i></a>
+              </div>
+            </figure>
+          </li>
+
+          <li>
+            <figure
+              class="wow animate__animated animate__fadeInLeft img-tarjeta-prin"
+            >
+              <img src="img/proyectos/vistas/leoni1.jpeg" alt="" />
+              <div class="overlay">
+                <a href="servicios.html"><i class="fa-solid fa-eye"></i></a>
+              </div>
+            </figure>
+          </li>
+
+          <li>
+            <figure
+              class="wow animate__animated animate__fadeInLeft img-tarjeta-prin"
+            >
+              <img src="img/proyectos/vistas/mid2.jpeg" alt="" />
+              <div class="overlay">
+                <a href="servicios.html"><i class="fa-solid fa-eye"></i></a>
+              </div>
+            </figure>
+          </li>
+
+          <li>
+            <figure
+              class="wow animate__animated animate__fadeInLeft img-tarjeta-prin"
+            >
+              <img src="img/proyectos/vistas/unam2.jpeg" alt="" />
+              <div class="overlay">
+                <a href="servicios.html"><i class="fa-solid fa-eye"></i></a>
+              </div>
+            </figure>
+          </li>
+
+          <li>
+            <figure
+              class="wow animate__animated animate__fadeInLeft img-tarjeta-prin"
+            >
+              <img src="img/proyectos/vistas/unam3.jpeg" alt="" />
+              <div class="overlay">
+                <a href="servicios.html"><i class="fa-solid fa-eye"></i></a>
+              </div>
+            </figure>
+          </li>
+
+          <li>
+            <figure
+              class="wow animate__animated animate__fadeInLeft img-tarjeta-prin"
+            >
+              <img src="img/proyectos/vistas/unam4.jpeg" alt="" />
+              <div class="overlay">
+                <a href="servicios.html"><i class="fa-solid fa-eye"></i></a>
+              </div>
+            </figure>
+          </li>
+
+          <li>
+            <figure
+              class="wow animate__animated animate__fadeInLeft img-tarjeta-prin"
+            >
+              <img src="img/proyectos/vistas/unam5.jpeg" alt="" />
+              <div class="overlay">
+                <a href="servicios.html"><i class="fa-solid fa-eye"></i></a>
+              </div>
+            </figure>
+          </li>
+
+          <li>
+            <figure
+              class="wow animate__animated animate__fadeInLeft img-tarjeta-prin"
+            >
+              <img src="img/proyectos/vistas/faro1.jpeg" alt="" />
+              <div class="overlay">
+                <a href="servicios.html"><i class="fa-solid fa-eye"></i></a>
+              </div>
+            </figure>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!---------------------------------------RESPONSIVESLIDE PARA MENU------------------------------------>
+
+    <section id="slide-phone" class="sec-fotos ancho">
+      <ul class="rslides rslides-imagen-phone">
+        <li><img src="img/boda/libertad.jpeg" alt="" /></li>
+        <li><img src="img/boda/foto2.jpg" alt="" /></li>
+        <li><img src="img/boda/foto3.jpg" alt="" /></li>
+      </ul>
+
+      <div id="info-boda-phone" class="info2">
+        <h1>
+          "EL PODER NO SE DETERMINA POR TU TAMAÑO, ¡SINO POR EL TAMAÑO DE TU
+          <span class="naranja_span">CORAZÓN</span> Y DE TUS
+          <span class="naranja_span">SUEÑOS</span>!"
+        </h1>
+        <p>-Eiichiro Oda</p>
+      </div>
+    </section>
+
+    <svg
+      width="100%"
+      height="100%"
+      id="svg"
+      viewBox="0 0 1440 390"
+      xmlns="http://www.w3.org/2000/svg"
+      class="transition duration-300 ease-in-out delay-150 margin-pabajo"
+    >
+      <style>
+        .path-0 {
+          animation: pathAnim-0 4s;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;
+        }
+        @keyframes pathAnim-0 {
+          0% {
+            d: path(
+              "M 0,400 L 0,150 C 42.94451346850299,182.59324856591502 85.88902693700598,215.18649713183007 131,197 C 176.11097306299402,178.81350286816993 223.38840572047906,109.84726003859474 274,106 C 324.61159427952094,102.15273996140526 378.55735018107805,163.424462713791 427,166 C 475.44264981892195,168.575537286209 518.3821935552089,112.45488910624124 571,114 C 623.6178064447911,115.54511089375876 685.9138755980861,174.755980861244 738,180 C 790.0861244019139,185.244019138756 831.9623040524465,136.52118744878268 872,134 C 912.0376959475535,131.47881255121732 950.2369081921277,175.15926934362528 998,165 C 1045.7630918078723,154.84073065637472 1103.0900631790428,90.84173517671628 1151,87 C 1198.9099368209572,83.15826482328372 1237.4028390917022,139.47378994950964 1284,160 C 1330.5971609082978,180.52621005049036 1385.298580454149,165.26310502524518 1440,150 L 1440,400 L 0,400 Z"
+            );
+          }
+          25% {
+            d: path(
+              "M 0,400 L 0,150 C 35.76925110365063,142.24031827433978 71.53850220730126,134.48063654867957 122,116 C 172.46149779269874,97.51936345132042 237.61524227444556,68.31777207962148 291,89 C 344.38475772555444,109.68222792037852 386.0005286949166,180.2482751328346 438,181 C 489.9994713050834,181.7517248671654 552.382642945888,112.68912738904017 597,96 C 641.617357054112,79.31087261095983 668.4688995215312,114.99521531100477 714,119 C 759.5311004784688,123.00478468899523 823.7417589679877,95.33001136694071 872,113 C 920.2582410320123,130.6699886330593 952.5640646065187,193.6847392212324 989,187 C 1025.4359353934813,180.3152607787676 1066.0019826059374,103.93103174812973 1125,92 C 1183.9980173940626,80.06896825187027 1261.4280049697322,132.59113378624863 1317,153 C 1372.5719950302678,173.40886621375137 1406.2859975151339,161.70443310687568 1440,150 L 1440,400 L 0,400 Z"
+            );
+          }
+          50% {
+            d: path(
+              "M 0,400 L 0,150 C 45.769740146448484,192.25249147479445 91.53948029289697,234.50498294958894 135,221 C 178.46051970710303,207.49501705041106 219.61181897486057,138.2325596764387 265,121 C 310.38818102513943,103.76744032356129 360.0132438076608,138.5647783446562 418,138 C 475.9867561923392,137.4352216553438 542.3352057944963,101.50832694493643 596,86 C 649.6647942055037,70.49167305506357 690.6459330143541,75.40191387559808 729,84 C 767.3540669856459,92.59808612440192 803.0810621480873,104.88401755267122 850,94 C 896.9189378519127,83.11598244732878 955.0298183932962,49.06201591371699 1005,75 C 1054.9701816067038,100.93798408628301 1096.799664278728,186.86791879246078 1142,216 C 1187.200335721272,245.13208120753922 1235.771524491792,217.4663089164398 1286,197 C 1336.228475508208,176.5336910835602 1388.1142377541041,163.2668455417801 1440,150 L 1440,400 L 0,400 Z"
+            );
+          }
+          75% {
+            d: path(
+              "M 0,400 L 0,150 C 55.61267810410004,141.62148087446138 111.22535620820008,133.2429617489228 156,135 C 200.77464379179992,136.7570382510772 234.71125327129977,148.64963387877023 283,147 C 331.28874672870023,145.35036612122977 393.92963070660073,130.1585027359962 438,117 C 482.07036929339927,103.8414972640038 507.57022390229724,92.71635517724495 559,101 C 610.4297760977028,109.28364482275505 687.7894736842105,136.97607655502392 746,160 C 804.2105263157895,183.02392344497608 843.2718813608607,201.37933860265932 884,180 C 924.7281186391393,158.62066139734068 967.1230008723469,97.50656903433874 1019,105 C 1070.876999127653,112.49343096566126 1132.2361151497528,188.5943852599857 1172,219 C 1211.7638848502472,249.4056147400143 1229.932538528642,234.11588992571836 1271,215 C 1312.067461471358,195.88411007428164 1376.033730735679,172.94205503714082 1440,150 L 1440,400 L 0,400 Z"
+            );
+          }
+          100% {
+            d: path(
+              "M 0,400 L 0,150 C 42.94451346850299,182.59324856591502 85.88902693700598,215.18649713183007 131,197 C 176.11097306299402,178.81350286816993 223.38840572047906,109.84726003859474 274,106 C 324.61159427952094,102.15273996140526 378.55735018107805,163.424462713791 427,166 C 475.44264981892195,168.575537286209 518.3821935552089,112.45488910624124 571,114 C 623.6178064447911,115.54511089375876 685.9138755980861,174.755980861244 738,180 C 790.0861244019139,185.244019138756 831.9623040524465,136.52118744878268 872,134 C 912.0376959475535,131.47881255121732 950.2369081921277,175.15926934362528 998,165 C 1045.7630918078723,154.84073065637472 1103.0900631790428,90.84173517671628 1151,87 C 1198.9099368209572,83.15826482328372 1237.4028390917022,139.47378994950964 1284,160 C 1330.5971609082978,180.52621005049036 1385.298580454149,165.26310502524518 1440,150 L 1440,400 L 0,400 Z"
+            );
+          }
+        }
+      </style>
+      <defs>
+        <linearGradient id="gradient" x1="50%" y1="100%" x2="50%" y2="0%">
+          <stop offset="5%" stop-color="#020204"></stop>
+          <stop offset="95%" stop-color="#010103"></stop>
+        </linearGradient>
+      </defs>
+      <path
+        d="M 0,400 L 0,150 C 42.94451346850299,182.59324856591502 85.88902693700598,215.18649713183007 131,197 C 176.11097306299402,178.81350286816993 223.38840572047906,109.84726003859474 274,106 C 324.61159427952094,102.15273996140526 378.55735018107805,163.424462713791 427,166 C 475.44264981892195,168.575537286209 518.3821935552089,112.45488910624124 571,114 C 623.6178064447911,115.54511089375876 685.9138755980861,174.755980861244 738,180 C 790.0861244019139,185.244019138756 831.9623040524465,136.52118744878268 872,134 C 912.0376959475535,131.47881255121732 950.2369081921277,175.15926934362528 998,165 C 1045.7630918078723,154.84073065637472 1103.0900631790428,90.84173517671628 1151,87 C 1198.9099368209572,83.15826482328372 1237.4028390917022,139.47378994950964 1284,160 C 1330.5971609082978,180.52621005049036 1385.298580454149,165.26310502524518 1440,150 L 1440,400 L 0,400 Z"
+        stroke="none"
+        stroke-width="0"
+        fill="url(#gradient)"
+        fill-opacity="1"
+        class="transition-all duration-300 ease-in-out delay-150 path-0"
+        transform="rotate(-180 720 200)"
+      ></path>
+    </svg>
+    <!-- 
+    CURVAS ---------------------------------------------------------------------- -->
+    <!-- 
+    <div style="height: 150px; overflow: hidden">
+      <svg
+        viewBox="0 0 500 150"
+        preserveAspectRatio="none"
+        style="height: 100%; width: 100%"
+      >
+        <path
+          d="M-0.00,50.10 C222.16,225.50 349.20,-50.10 519.00,78.16 L500.00,150.33 L-0.00,150.33 Z"
+          style="stroke: none; fill: #edf3f8"
+        ></path>
+      </svg>
+    </div> -->
+
+    <svg
+      width="100%"
+      height="100%"
+      id="svg1"
+      viewBox="0 0 1440 390"
+      display="block"
+      xmlns="http://www.w3.org/2000/svg"
+      class="transition duration-300 ease-in-out delay-150"
+    >
+      <style>
+        .path-0 {
+          animation: pathAnim-0 4s;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;
+        }
+        @keyframes pathAnim-0 {
+          0% {
+            d: path(
+              "M 0,400 L 0,100 C 84.01167983510823,95.93679148059087 168.02335967021645,91.87358296118173 243,81 C 317.97664032978355,70.12641703881827 383.91824115424254,52.442459635863955 441,52 C 498.08175884575746,51.557540364136045 546.3036757128134,68.35657849536243 618,88 C 689.6963242871866,107.64342150463757 784.8670559945035,130.13122638268635 846,132 C 907.1329440054965,133.86877361731365 934.2281003091723,115.11851597389213 999,118 C 1063.7718996908277,120.88148402610787 1166.2205427688077,145.3947097217451 1246,146 C 1325.7794572311923,146.6052902782549 1382.8897286155961,123.30264513912745 1440,100 L 1440,400 L 0,400 Z"
+            );
+          }
+          25% {
+            d: path(
+              "M 0,400 L 0,100 C 68.83064239093093,113.96015115080728 137.66128478186187,127.92030230161456 210,132 C 282.33871521813813,136.07969769838544 358.1855032634834,130.27894194434901 417,118 C 475.8144967365166,105.72105805565099 517.5967021642047,86.96392992098937 580,99 C 642.4032978357953,111.03607007901063 725.4276880796976,153.86533837169355 802,140 C 878.5723119203024,126.13466162830645 948.6925455170044,55.57471659223635 1027,54 C 1105.3074544829956,52.42528340776365 1191.8021298522842,119.83579525936105 1262,139 C 1332.1978701477158,158.16420474063895 1386.0989350738578,129.0821023703195 1440,100 L 1440,400 L 0,400 Z"
+            );
+          }
+          50% {
+            d: path(
+              "M 0,400 L 0,100 C 75.16386121607692,79.58639642734455 150.32772243215385,59.17279285468911 210,59 C 269.67227756784615,58.82720714531089 313.8529714874614,78.89522500858811 374,81 C 434.1470285125386,83.10477499141189 510.26039161800077,67.24630711095844 590,65 C 669.7396083819992,62.75369288904157 753.1054620405358,74.11954654757815 823,92 C 892.8945379594642,109.88045345242185 949.3177602198557,134.27550669872895 1017,124 C 1084.6822397801443,113.72449330127105 1163.6234970800413,68.77842665750602 1236,59 C 1308.3765029199587,49.22157334249398 1374.1882514599793,74.61078667124698 1440,100 L 1440,400 L 0,400 Z"
+            );
+          }
+          75% {
+            d: path(
+              "M 0,400 L 0,100 C 73.75472346272758,82.37925111645484 147.50944692545517,64.75850223290966 209,64 C 270.49055307454483,63.24149776709034 319.71693576090684,79.3452421848162 385,80 C 450.28306423909316,80.6547578151838 531.6228100309172,65.8605290278255 608,70 C 684.3771899690828,74.1394709721745 755.7918241154242,97.21264170388181 829,97 C 902.2081758845758,96.78735829611819 977.2098935073857,73.28890415664719 1051,74 C 1124.7901064926143,74.71109584335281 1197.3686018550327,99.63174166952936 1262,108 C 1326.6313981449673,116.36825833047064 1383.3156990724838,108.18412916523532 1440,100 L 1440,400 L 0,400 Z"
+            );
+          }
+          100% {
+            d: path(
+              "M 0,400 L 0,100 C 84.01167983510823,95.93679148059087 168.02335967021645,91.87358296118173 243,81 C 317.97664032978355,70.12641703881827 383.91824115424254,52.442459635863955 441,52 C 498.08175884575746,51.557540364136045 546.3036757128134,68.35657849536243 618,88 C 689.6963242871866,107.64342150463757 784.8670559945035,130.13122638268635 846,132 C 907.1329440054965,133.86877361731365 934.2281003091723,115.11851597389213 999,118 C 1063.7718996908277,120.88148402610787 1166.2205427688077,145.3947097217451 1246,146 C 1325.7794572311923,146.6052902782549 1382.8897286155961,123.30264513912745 1440,100 L 1440,400 L 0,400 Z"
+            );
+          }
+        }
+      </style>
+      <defs>
+        <linearGradient id="gradient1" x1="50%" y1="100%" x2="50%" y2="0%">
+          <stop offset="5%" stop-color="#80878c"></stop>
+          <stop offset="95%" stop-color="#b8ff03"></stop>
+        </linearGradient>
+      </defs>
+      <path
+        d="M 0,400 L 0,100 C 84.01167983510823,95.93679148059087 168.02335967021645,91.87358296118173 243,81 C 317.97664032978355,70.12641703881827 383.91824115424254,52.442459635863955 441,52 C 498.08175884575746,51.557540364136045 546.3036757128134,68.35657849536243 618,88 C 689.6963242871866,107.64342150463757 784.8670559945035,130.13122638268635 846,132 C 907.1329440054965,133.86877361731365 934.2281003091723,115.11851597389213 999,118 C 1063.7718996908277,120.88148402610787 1166.2205427688077,145.3947097217451 1246,146 C 1325.7794572311923,146.6052902782549 1382.8897286155961,123.30264513912745 1440,100 L 1440,400 L 0,400 Z"
+        stroke="none"
+        stroke-width="0"
+        fill="url(#gradient1)"
+        fill-opacity="0.53"
+        display="block"
+        class="transition-all duration-300 ease-in-out delay-150 path-0"
+      ></path>
+      <style>
+        .path-1 {
+          animation: pathAnim-1 4s;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;
+        }
+        @keyframes pathAnim-1 {
+          0% {
+            d: path(
+              "M 0,400 L 0,233 C 82.87255238749569,250.31776021985573 165.74510477499138,267.63552043971146 224,257 C 282.2548952250086,246.36447956028854 315.89213328753016,207.77567846100993 384,193 C 452.10786671246984,178.22432153899007 554.6863620748883,187.26176571624873 640,189 C 725.3136379251117,190.73823428375127 793.3624184129166,185.1772586739952 850,184 C 906.6375815870834,182.8227413260048 951.8639642734456,186.02919958777053 1021,209 C 1090.1360357265544,231.97080041222947 1183.1817244933013,274.7059429749227 1257,282 C 1330.8182755066987,289.2940570250773 1385.4091377533493,261.14702851253867 1440,233 L 1440,400 L 0,400 Z"
+            );
+          }
+          25% {
+            d: path(
+              "M 0,400 L 0,233 C 67.73205084163516,205.15870834764684 135.46410168327031,177.3174166952937 215,184 C 294.5358983167297,190.6825833047063 385.87564410855373,231.88904156647203 449,251 C 512.1243558914463,270.11095843352797 547.0333218825147,267.1264170388183 596,253 C 644.9666781174853,238.8735829611817 707.9910683613879,213.60529027825487 790,214 C 872.0089316386121,214.39470972174513 973.0024046719338,240.45242184816215 1056,247 C 1138.9975953280662,253.54757815183785 1203.9993129508762,240.58502232909652 1265,235 C 1326.0006870491238,229.41497767090348 1383.000343524562,231.20748883545173 1440,233 L 1440,400 L 0,400 Z"
+            );
+          }
+          50% {
+            d: path(
+              "M 0,400 L 0,233 C 47.919615252490544,241.29268292682926 95.83923050498109,249.58536585365852 173,240 C 250.1607694950189,230.41463414634148 356.5626932325662,202.95121951219517 433,207 C 509.4373067674338,211.04878048780483 555.9099965647544,246.60975609756093 622,257 C 688.0900034352456,267.39024390243907 773.7973205084164,252.609756097561 844,233 C 914.2026794915836,213.390243902439 968.9007214015803,188.9512195121951 1023,196 C 1077.0992785984197,203.0487804878049 1130.599793885263,241.58536585365852 1200,253 C 1269.400206114737,264.4146341463415 1354.7001030573686,248.70731707317074 1440,233 L 1440,400 L 0,400 Z"
+            );
+          }
+          75% {
+            d: path(
+              "M 0,400 L 0,233 C 73.30264513912743,255.12435589144624 146.60529027825487,277.2487117828925 221,265 C 295.39470972174513,252.75128821710751 370.88148402610784,206.1295087598763 439,206 C 507.11851597389216,205.8704912401237 567.8687736173136,252.23325317760225 625,260 C 682.1312263826864,267.76674682239775 735.6434215046376,236.93747852971487 807,220 C 878.3565784953624,203.06252147028513 967.557540364136,200.01683270353828 1037,200 C 1106.442459635864,199.98316729646172 1156.126417038818,202.99519065613194 1220,209 C 1283.873582961182,215.00480934386806 1361.936791480591,224.00240467193402 1440,233 L 1440,400 L 0,400 Z"
+            );
+          }
+          100% {
+            d: path(
+              "M 0,400 L 0,233 C 82.87255238749569,250.31776021985573 165.74510477499138,267.63552043971146 224,257 C 282.2548952250086,246.36447956028854 315.89213328753016,207.77567846100993 384,193 C 452.10786671246984,178.22432153899007 554.6863620748883,187.26176571624873 640,189 C 725.3136379251117,190.73823428375127 793.3624184129166,185.1772586739952 850,184 C 906.6375815870834,182.8227413260048 951.8639642734456,186.02919958777053 1021,209 C 1090.1360357265544,231.97080041222947 1183.1817244933013,274.7059429749227 1257,282 C 1330.8182755066987,289.2940570250773 1385.4091377533493,261.14702851253867 1440,233 L 1440,400 L 0,400 Z"
+            );
+          }
+        }
+      </style>
+      <defs>
+        <linearGradient id="gradient" x1="50%" y1="100%" x2="50%" y2="0%">
+          <stop offset="5%" stop-color="#80878c"></stop>
+          <stop offset="95%" stop-color="#b8ff03"></stop>
+        </linearGradient>
+      </defs>
+      <path
+        d="M 0,400 L 0,233 C 82.87255238749569,250.31776021985573 165.74510477499138,267.63552043971146 224,257 C 282.2548952250086,246.36447956028854 315.89213328753016,207.77567846100993 384,193 C 452.10786671246984,178.22432153899007 554.6863620748883,187.26176571624873 640,189 C 725.3136379251117,190.73823428375127 793.3624184129166,185.1772586739952 850,184 C 906.6375815870834,182.8227413260048 951.8639642734456,186.02919958777053 1021,209 C 1090.1360357265544,231.97080041222947 1183.1817244933013,274.7059429749227 1257,282 C 1330.8182755066987,289.2940570250773 1385.4091377533493,261.14702851253867 1440,233 L 1440,400 L 0,400 Z"
+        stroke="none"
+        stroke-width="0"
+        fill="url(#gradient1)"
+        fill-opacity="1"
+        display="block"
+        class="transition-all duration-300 ease-in-out delay-150 path-1"
+      ></path>
+    </svg>
+
+    <!---------------------------Boton subir---------------------------------------------------------------------------------------------->
+
+    <a id="btnUp" href="#"><i class="fa-solid fa-circle-arrow-up"></i></a>
+
+    <!----------------------------------FOODER------------------------------------------------------------->
+
+    <footer>
+      <article class="wow animate__animated animate__fadeInRight artic-footer">
+        <!-- <figure class="img-footer"><img src="img/logo.png" alt="" /></figure> -->
+        <h1>ARC</h1>
+        <a href="#"
+          ><i class="fa-solid fa-phone-volume"></i> +52 999 309 3310</a
+        >
+        <a href="#"
+          ><i class="fa-solid fa-location-dot"></i> C-37 Chichi Suárez</a
+        >
+        <a href="www.outlook.com"
+          ><i class="fa-solid fa-envelope"></i> aaronchi97@outlook.com</a
+        >
+      </article>
+      <!-- 
+      <div class="wow animate__animated animate__fadeInRight div-footer">
+        <h1>Quick Links</h1>
+        <h2>__ _</h2>
+
+        <a href="#"><i class="fa-solid fa-angles-right"></i> About Us</a>
+        <a href="#"><i class="fa-solid fa-angles-right"></i> FAQ's</a>
+        <a href="#"><i class="fa-solid fa-angles-right"></i> Privacy</a>
+        <a href="#"><i class="fa-solid fa-angles-right"></i> Our Team</a>
+        <a href="#"><i class="fa-solid fa-angles-right"></i> Policy</a>
+        <a href="#"><i class="fa-solid fa-angles-right"></i> Privacy</a>
+      </div>
+
+      <div class="wow animate__animated animate__fadeInRight div-footer">
+        <h1>Our Services</h1>
+        <h2>__ _</h2>
+
+        <a href="#"><i class="fa-solid fa-angles-right"></i> Data bases</a>
+        <a href="#"><i class="fa-solid fa-angles-right"></i> Desing</a>
+        <a href="#"><i class="fa-solid fa-angles-right"></i> Web</a>
+        <a href="#"><i class="fa-solid fa-angles-right"></i> Network</a>
+        <a href="#"><i class="fa-solid fa-angles-right"></i> Interior</a>
+      </div>
+
+      <div class="wow animate__animated animate__fadeInRight div-footer">
+        <h1>Newsletter</h1>
+        <h2>__ _</h2>
+
+        <a href="#"><i class="fa-solid fa-angles-right"></i> Guest List</a>
+        <a href="#"><i class="fa-solid fa-angles-right"></i> Wedding Car</a>
+        <a href="#"><i class="fa-solid fa-angles-right"></i> Interior </a>
+        <a href="#"><i class="fa-solid fa-angles-right"></i> Decoration</a>
+        <a href="#"><i class="fa-solid fa-angles-right"></i> Decoration</a>
+        <a href="#"><i class="fa-solid fa-angles-right"></i> Decoration</a>
+      </div> -->
+
+      <div class="parte-div">
+        <p>AARÓN ENRIQUE CHI BÉJAR</p>
+
+        <figure class="iconos-footer">
+          <a href="https://www.facebook.com/aaron.chi1?mibextid=ZbWKwL"
+            ><i class="fa-brands fa-facebook-f"></i
+          ></a>
+          <a href="https://www.instagram.com/aaron__cb?igsh=bTFoYXhiajhuY2Y0">
+            <i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/aaron-enrique-chi-bejar-5b9175295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          >
+            <i class="fa-brands fa-linkedin"></i
+          ></a>
+
+          <a href="https://twitter.com/aaronchi97"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+        </figure>
+      </div>
+    </footer>
+
+    <!---------------------------FUNCIONES SCRIPTS------------------------>
+
+    <script>
+      //MODAL VIDEO----------------------------------------------
+      var openModalLink = document.getElementById("openModal");
+      var closeModalBtn = document.getElementById("closeModal");
+      var modalContainer = document.getElementById("modalContainer");
+      var videoFrame = document.getElementById("videoFrame");
+
+      openModalLink.addEventListener("click", function (event) {
+        event.preventDefault();
+        modalContainer.style.display = "block";
+      });
+
+      closeModalBtn.addEventListener("click", function () {
+        modalContainer.style.display = "none";
+
+        // Pausar el video al cerrar el modal
+        var iframeSrc = videoFrame.src;
+        videoFrame.src = iframeSrc; // Esto recarga el iframe y pausa el video
+      });
+
+      window.onclick = function (event) {
+        if (event.target == modalContainer) {
+          modalContainer.style.display = "none";
+        }
+      };
+      //MENU----------------------------------------
+
+      $("#barramenu").click(function () {
+        //con slideToggle se abre y cierra el menu, al dar click obviamente
+        $("#cajamenu").slideToggle();
+      });
+
+      $("#barramenu").click(function () {
+        $("#div-espacio").toggleClass("desaparecer-div");
+      });
+
+      //WOW-----------------------------------------------------------------------
+      new WOW().init();
+
+      //boton subir------------------------------------------------------------------------------
+
+      var btnup = document.getElementById("btnUp");
+
+      btnup.addEventListener("click", function (event) {
+        event.preventDefault(); // Evitar el comportamiento predeterminado del enlace
+
+        // Hacer scroll hasta la parte superior de la página
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      });
+
+      // Mostrar u ocultar el botón al hacer scroll
+      window.addEventListener("scroll", function () {
+        if (window.pageYOffset > 100) {
+          btnup.style.display = "block";
+        } else {
+          btnup.style.display = "none";
+        }
+      });
+
+      //CARRUSEL FOTOS GALERIA
+
+      //CARRUSEL FOTOS GALERY
+      $(document).ready(function () {
+        $(".carru-prin").tinycarousel({ interval: true });
+
+        var slider7 = $("carru-prin").data("plugin_tinycarousel");
+      });
+
+      //MODAL-----------------------------------------
+
+      //MODAL BOTON BUCAR------------------------------------------------------------------
+      var nodal2 = document.getElementById("nodal2");
+      var btnbucar = document.getElementById("icono-buscar");
+
+      var btnSearch = document.getElementById("btnsearch");
+
+      btnbucar.onclick = function () {
+        nodal2.style.display = "flex";
+      };
+
+      //para utizar todo el area del navegador para cerrar
+      window.onclick = function (event) {
+        if (event.target == nodal2) {
+          nodal2.style.display = "none";
+        }
+      };
+
+      const searchContainer = document.querySelector(".search-container");
+      const searchInput = document.querySelector('input[type="text"]');
+
+      searchContainer.addEventListener("click", function (event) {
+        // Cuando se hace clic en el contenedor de búsqueda, enfocar el campo de entrada
+        searchInput.focus();
+      });
+
+      //busquedas reales en google
+      btnSearch.addEventListener("keyup", function (event) {
+        event.preventDefault();
+        if (event.keyCode === 13) {
+          searchGoogle();
+        }
+      });
+
+      function searchGoogle() {
+        var searchTerm = btnSearch.value;
+        var encodedSearchTerm = encodeURIComponent(searchTerm);
+        var googleSearchUrl =
+          "https://www.google.com/search?q=" + encodedSearchTerm;
+        window.location.href = googleSearchUrl;
+      }
+
+      /*  var slider = document.getElementById("slider1");
+        var abrirbtnmenu = document.getElementById("barramenu")
+
+        abrirbtnmenu.onclick = function() {
+        slider.style.marginTop = 0;
+    }; */
+
+      //FORMULARIO----------------------------------------------------------------
+
+      //RESPONSIVE SLIDES
+
+      $(function () {
+        $(".rslides").responsiveSlides({ timeout: 2000 });
+      });
+
+      $(".titulo1").click(function () {
+        $(".contenido1").slideToggle();
+        $(".mas1").toggleClass("desaparecer");
+        $(".titulo1").toggleClass("text");
+      });
+
+      $(".titulo2").click(function () {
+        $(".contenido2").slideToggle();
+        $(".mas2").toggleClass("desaparecer");
+        $(".titulo2").toggleClass("text");
+      });
+
+      $(".titulo3").click(function () {
+        $(".contenido3").slideToggle();
+        $(".mas3").toggleClass("desaparecer");
+        $(".titulo3").toggleClass("text");
+      });
+
+      $(".titulo4").click(function () {
+        $(".contenido4").slideToggle();
+        $(".mas4").toggleClass("desaparecer");
+        $(".titulo4").toggleClass("text");
+      });
+    </script>
+
+    <script>
+      $(function () {
+        $("#slider4").responsiveSlides({
+          auto: false,
+          pager: false,
+          nav: true,
+          speed: 500,
+          namespace: "callbacks",
+          before: function () {
+            $(".events").append("<li>before event fired.</li>");
+          },
+          after: function () {
+            $(".events").append("<li>after event fired.</li>");
+          },
+        });
+      });
+    </script>
+
+    <!-- FUNCION DE MENU VISIBLE CON SCROLL--------------------------------------- -->
+    <script type="text/javascript">
+      window.addEventListener("scroll", function () {
+        var nav = document.querySelector("nav");
+        var slidePhone = document.getElementById("slide-phone");
+
+        // Obtener la posición del scroll y el límite superior e inferior de #slide-phone
+        var scrollY = window.scrollY;
+        var slidePhoneTop = slidePhone.offsetTop - 20; // 200px antes de entrar
+        var slidePhoneBottom =
+          slidePhone.offsetTop + slidePhone.offsetHeight + 20; // 200px antes de salir
+
+        // Verificar si el scroll está dentro del área de #slide-phone
+        var isInsideSlidePhone =
+          scrollY >= slidePhoneTop && scrollY <= slidePhoneBottom;
+
+        // Agregar o quitar la clase según la condición
+        nav.classList.toggle("menu", !isInsideSlidePhone);
+      });
+    </script>
+  </body>
+</html>

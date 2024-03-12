@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Tiny Carrusel-->
+    <link
+      rel="stylesheet"
+      href="tinycarousel.css"
+      type="text/css"
+      media="screen"
+    />
+
+    <!-- Hover-master-->
+    <link rel="stylesheet" href="hover-master/css/hover.css" />
+    <!-- Galeria slide fancybox -->
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="fancybox/jquery.fancybox.css"
+    />
+
+    <!-- Animaciones -->
+
+    <link rel="stylesheet" type="text/css" href="animate.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!--ESTILOS GENERALES  -->
+    <link rel="stylesheet" href="estilo.css" />
+    <link rel="stylesheet" href="movil.css" />
+
+    <!--CARRUSEL 2 -->
+    <link rel="stylesheet" href="libreria_carrousel_js/carrousel.css" />
+
+    <!-- java script -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+
+    <!---Responsiveslides-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="responsiveslides.min.js"></script>
+
+    <!-- Font awesome-->
+    <script
+      src="https://kit.fontawesome.com/2ee0245f3d.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Galeria slide fancybox -->
+
+    <script src="fancybox/jquery.fancybox.js"></script>
+
+    <!-- build:js jquery.tinycarousel.js -->
+
+    <script type="text/javascript" src="jquery.tinycarousel.min.js"></script>
+
+    <!-- Animaciones -->
+
+    <script src="wow.min.js"></script>
+
+    <title>Servicios</title>
+  </head>
+  <body>
+    <nav>
+      <a class="wow animate__animated animate__hinge" href="index.html">ARC</a>
+
+      <ul class="menu-list">
+        <li><a href="index.html"> Home</a></li>
+        <li><a href="servicios.html"> Proyectos</a></li>
+
+        <li><a href="Contacto.html"> Contacto</a></li>
+        <li>
+          <a id="icono-buscar" href="#"
+            ><i class="fa-sharp fa-solid fa-magnifying-glass"></i
+          ></a>
+        </li>
+      </ul>
+
+      <div id="barramenu">
+        <i class="icon fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <div class="menu-phone" id="cajamenu">
+      <ul class="menu-list-phone">
+        <li><a href="index.html"> Home</a></li>
+        <li><a href="servicios.html"> Proyectos</a></li>
+
+        <li><a href="Contacto.html"> Contacto</a></li>
+      </ul>
+    </div>
+
+    <!------------------------------MODAL ICONO BUSCAR--------------------------------------------->
+
+    <div id="nodal2">
+      <section class="contenido-buscar ancho">
+        <input id="btnserch" type="text" placeholder="Buscar..." />
+        <a href="https://www.google.com/search " class="search-link"
+          ><i class="fa-solid fa-magnifying-glass"></i
+        ></a>
+      </section>
+    </div>
+
+    <!-- <div id="div-espacio"></div> -->
+
+    <!----------------------------PRESENTACION SECCIONES------------------------------------------------->
+
+    <section class="sec-fotos">
+      <ul class="rslides">
+        <li><img src="img/proyectos/vistas/mid2.jpeg" alt="" /></li>
+        <li><img src="img/proyectos/texas/texas2.jpg" alt="" /></li>
+        <li><img src="img/proyectos/texas/texas7.jpg" alt="" /></li>
+      </ul>
+
+      <div class="info">
+        <h1>GALERÍA</h1>
+      </div>
+    </section>
+
+    <!----------------------------DIVISOR DE SECCIONES------------------------------------------------->
+    <div class="wow animate__animated animate__fadeInUp div-fancy ancho">
+      <div class="texto-div-fancy">
+        <h1>BIENVENIDO A LA</h1>
+        <h2>GALERÍA</h2>
+      </div>
+    </div>
+
+    <!-- 
+    FANCY BOX PARA GALERIA ---------------------------------------------------------------------- -->
+
+    <section id="galeria">
+      <a
+        href="img/proyectos/mid/mid1.jpeg"
+        class="fancybox"
+        title="MID CENTER"
+        rel="gallery1"
+      >
+        <img src="img/proyectos/mid/mid1.jpeg" alt="" />
+        <div class="fondo-opaco"></div>
+      </a>
+
+      <a
+        href="img/proyectos/unam/unam1.jpeg"
+        class="fancybox"
+        title="ENES UNAM"
+        rel="gallery1"
+      >
+        <img src="img/proyectos/unam/unam1.jpeg" alt="" />
+        <div class="fondo-opaco"></div>
+      </a>
+
+      <a
+        href="img/proyectos/unam/unam2.jpeg"
+        class="fancybox visible"
+        title="ENES UNAM"
+        rel="gallery1"
+      >
+        <img src="img/proyectos/unam/unam2.jpeg" alt="" />
+        <div class="fondo-opaco"></div>
+      </a>
+
+      <a
+        href="img/proyectos/vistas/unam1.jpeg"
+        class="fancybox"
+        title="ENES UNAM"
+        rel="gallery1"
+      >
+        <img src="img/proyectos/vistas/unam1.jpeg" alt="" />
+        <div class="fondo-opaco"></div>
+      </a>
+
+      <a
+        href="img/proyectos/vistas/unam4.jpeg"
+        class="fancybox"
+        title="ENES UNAM"
+        rel="gallery1"
+      >
+        <img src="img/proyectos/vistas/unam4.jpeg" alt="" />
+        <div class="fondo-opaco"></div>
+      </a>
+
+      <a
+        href="img/proyectos/vistas/leoni1.jpeg"
+        class="fancybox"
+        title="LEONI"
+        rel="gallery1"
+      >
+        <img src="img/proyectos/vistas/leoni1.jpeg" alt="" />
+        <div class="fondo-opaco"></div>
+      </a>
+
+      <a
+        href="img/proyectos/mid/mid11.jpeg"
+        class="fancybox"
+        title="MID CENTER"
+        rel="gallery1"
+      >
+        <img src="img/proyectos/mid/mid11.jpeg" alt="" />
+        <div class="fondo-opaco"></div>
+      </a>
+
+      <a
+        href="img/proyectos/mid/mid4.jpeg"
+        class="fancybox"
+        title="ESTIMACIONES DE OBRA"
+        rel="gallery1"
+      >
+        <img src="img/proyectos/mid/mid4.jpeg" alt="" />
+        <div class="fondo-opaco"></div>
+      </a>
+
+      <a
+        href="img/proyectos/vistas/web1.png"
+        class="fancybox"
+        title="PROYECTO WEB PARA BODAS"
+        rel="gallery1"
+      >
+        <img src="img/proyectos/vistas/web1.png" alt="" />
+        <div class="fondo-opaco"></div>
+      </a>
+
+      <a
+        href="img/proyectos/vistas/web2.png"
+        class="fancybox"
+        title="PROYECTO WEB PARA BODAS"
+        rel="gallery1"
+      >
+        <img src="img/proyectos/vistas/web2.png" alt="" />
+        <div class="fondo-opaco"></div>
+      </a>
+
+      <a
+        href="img/proyectos/vistas/web3.png"
+        class="fancybox"
+        title="PROYECTO WEB PARA BODAS"
+        rel="gallery1"
+      >
+        <img src="img/proyectos/vistas/web3.png" alt="" />
+        <div class="fondo-opaco"></div>
+      </a>
+
+      <a
+        href="img/proyectos/vistas/web4.png"
+        class="fancybox"
+        title="PROYECTO WEB PARA BODAS"
+        rel="gallery1"
+      >
+        <img src="img/proyectos/vistas/web4.png" alt="" />
+        <div class="fondo-opaco"></div>
+      </a>
+
+      <a
+        href="img/proyectos/texas/texas7.jpg"
+        class="fancybox"
+        title="PROYECTO OFICINAS "
+        rel="gallery1"
+      >
+        <img src="img/proyectos/texas/texas7.jpg" alt="" />
+        <div class="fondo-opaco"></div>
+      </a>
+
+      <a
+        href="img/proyectos/texas/texas3.jpeg"
+        class="fancybox"
+        title="PROYECTO OFICINAS"
+        rel="gallery1"
+      >
+        <img src="img/proyectos/texas/texas3.jpeg" alt="" />
+        <div class="fondo-opaco"></div>
+      </a>
+
+      <a
+        href="img/proyectos/texas/texas4.jpg"
+        class="fancybox"
+        title="PROYECTO OFICINAS"
+        rel="gallery1"
+      >
+        <img src="img/proyectos/texas/texas4.jpg" alt="" />
+        <div class="fondo-opaco"></div>
+      </a>
+    </section>
+
+    <!-- 
+    CURVAS ---------------------------------------------------------------------- -->
+
+    <svg
+      width="100%"
+      height="100%"
+      id="svg1"
+      viewBox="0 0 1440 390"
+      display="block"
+      xmlns="http://www.w3.org/2000/svg"
+      class="transition duration-300 ease-in-out delay-150"
+    >
+      <style>
+        .path-0 {
+          animation: pathAnim-0 4s;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;
+        }
+        @keyframes pathAnim-0 {
+          0% {
+            d: path(
+              "M 0,400 L 0,100 C 84.01167983510823,95.93679148059087 168.02335967021645,91.87358296118173 243,81 C 317.97664032978355,70.12641703881827 383.91824115424254,52.442459635863955 441,52 C 498.08175884575746,51.557540364136045 546.3036757128134,68.35657849536243 618,88 C 689.6963242871866,107.64342150463757 784.8670559945035,130.13122638268635 846,132 C 907.1329440054965,133.86877361731365 934.2281003091723,115.11851597389213 999,118 C 1063.7718996908277,120.88148402610787 1166.2205427688077,145.3947097217451 1246,146 C 1325.7794572311923,146.6052902782549 1382.8897286155961,123.30264513912745 1440,100 L 1440,400 L 0,400 Z"
+            );
+          }
+          25% {
+            d: path(
+              "M 0,400 L 0,100 C 68.83064239093093,113.96015115080728 137.66128478186187,127.92030230161456 210,132 C 282.33871521813813,136.07969769838544 358.1855032634834,130.27894194434901 417,118 C 475.8144967365166,105.72105805565099 517.5967021642047,86.96392992098937 580,99 C 642.4032978357953,111.03607007901063 725.4276880796976,153.86533837169355 802,140 C 878.5723119203024,126.13466162830645 948.6925455170044,55.57471659223635 1027,54 C 1105.3074544829956,52.42528340776365 1191.8021298522842,119.83579525936105 1262,139 C 1332.1978701477158,158.16420474063895 1386.0989350738578,129.0821023703195 1440,100 L 1440,400 L 0,400 Z"
+            );
+          }
+          50% {
+            d: path(
+              "M 0,400 L 0,100 C 75.16386121607692,79.58639642734455 150.32772243215385,59.17279285468911 210,59 C 269.67227756784615,58.82720714531089 313.8529714874614,78.89522500858811 374,81 C 434.1470285125386,83.10477499141189 510.26039161800077,67.24630711095844 590,65 C 669.7396083819992,62.75369288904157 753.1054620405358,74.11954654757815 823,92 C 892.8945379594642,109.88045345242185 949.3177602198557,134.27550669872895 1017,124 C 1084.6822397801443,113.72449330127105 1163.6234970800413,68.77842665750602 1236,59 C 1308.3765029199587,49.22157334249398 1374.1882514599793,74.61078667124698 1440,100 L 1440,400 L 0,400 Z"
+            );
+          }
+          75% {
+            d: path(
+              "M 0,400 L 0,100 C 73.75472346272758,82.37925111645484 147.50944692545517,64.75850223290966 209,64 C 270.49055307454483,63.24149776709034 319.71693576090684,79.3452421848162 385,80 C 450.28306423909316,80.6547578151838 531.6228100309172,65.8605290278255 608,70 C 684.3771899690828,74.1394709721745 755.7918241154242,97.21264170388181 829,97 C 902.2081758845758,96.78735829611819 977.2098935073857,73.28890415664719 1051,74 C 1124.7901064926143,74.71109584335281 1197.3686018550327,99.63174166952936 1262,108 C 1326.6313981449673,116.36825833047064 1383.3156990724838,108.18412916523532 1440,100 L 1440,400 L 0,400 Z"
+            );
+          }
+          100% {
+            d: path(
+              "M 0,400 L 0,100 C 84.01167983510823,95.93679148059087 168.02335967021645,91.87358296118173 243,81 C 317.97664032978355,70.12641703881827 383.91824115424254,52.442459635863955 441,52 C 498.08175884575746,51.557540364136045 546.3036757128134,68.35657849536243 618,88 C 689.6963242871866,107.64342150463757 784.8670559945035,130.13122638268635 846,132 C 907.1329440054965,133.86877361731365 934.2281003091723,115.11851597389213 999,118 C 1063.7718996908277,120.88148402610787 1166.2205427688077,145.3947097217451 1246,146 C 1325.7794572311923,146.6052902782549 1382.8897286155961,123.30264513912745 1440,100 L 1440,400 L 0,400 Z"
+            );
+          }
+        }
+      </style>
+      <defs>
+        <linearGradient id="gradient1" x1="50%" y1="100%" x2="50%" y2="0%">
+          <stop offset="5%" stop-color="#80878c"></stop>
+          <stop offset="95%" stop-color="#b8ff03"></stop>
+        </linearGradient>
+      </defs>
+      <path
+        d="M 0,400 L 0,100 C 84.01167983510823,95.93679148059087 168.02335967021645,91.87358296118173 243,81 C 317.97664032978355,70.12641703881827 383.91824115424254,52.442459635863955 441,52 C 498.08175884575746,51.557540364136045 546.3036757128134,68.35657849536243 618,88 C 689.6963242871866,107.64342150463757 784.8670559945035,130.13122638268635 846,132 C 907.1329440054965,133.86877361731365 934.2281003091723,115.11851597389213 999,118 C 1063.7718996908277,120.88148402610787 1166.2205427688077,145.3947097217451 1246,146 C 1325.7794572311923,146.6052902782549 1382.8897286155961,123.30264513912745 1440,100 L 1440,400 L 0,400 Z"
+        stroke="none"
+        stroke-width="0"
+        fill="url(#gradient1)"
+        fill-opacity="0.53"
+        display="block"
+        class="transition-all duration-300 ease-in-out delay-150 path-0"
+      ></path>
+      <style>
+        .path-1 {
+          animation: pathAnim-1 4s;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;
+        }
+        @keyframes pathAnim-1 {
+          0% {
+            d: path(
+              "M 0,400 L 0,233 C 82.87255238749569,250.31776021985573 165.74510477499138,267.63552043971146 224,257 C 282.2548952250086,246.36447956028854 315.89213328753016,207.77567846100993 384,193 C 452.10786671246984,178.22432153899007 554.6863620748883,187.26176571624873 640,189 C 725.3136379251117,190.73823428375127 793.3624184129166,185.1772586739952 850,184 C 906.6375815870834,182.8227413260048 951.8639642734456,186.02919958777053 1021,209 C 1090.1360357265544,231.97080041222947 1183.1817244933013,274.7059429749227 1257,282 C 1330.8182755066987,289.2940570250773 1385.4091377533493,261.14702851253867 1440,233 L 1440,400 L 0,400 Z"
+            );
+          }
+          25% {
+            d: path(
+              "M 0,400 L 0,233 C 67.73205084163516,205.15870834764684 135.46410168327031,177.3174166952937 215,184 C 294.5358983167297,190.6825833047063 385.87564410855373,231.88904156647203 449,251 C 512.1243558914463,270.11095843352797 547.0333218825147,267.1264170388183 596,253 C 644.9666781174853,238.8735829611817 707.9910683613879,213.60529027825487 790,214 C 872.0089316386121,214.39470972174513 973.0024046719338,240.45242184816215 1056,247 C 1138.9975953280662,253.54757815183785 1203.9993129508762,240.58502232909652 1265,235 C 1326.0006870491238,229.41497767090348 1383.000343524562,231.20748883545173 1440,233 L 1440,400 L 0,400 Z"
+            );
+          }
+          50% {
+            d: path(
+              "M 0,400 L 0,233 C 47.919615252490544,241.29268292682926 95.83923050498109,249.58536585365852 173,240 C 250.1607694950189,230.41463414634148 356.5626932325662,202.95121951219517 433,207 C 509.4373067674338,211.04878048780483 555.9099965647544,246.60975609756093 622,257 C 688.0900034352456,267.39024390243907 773.7973205084164,252.609756097561 844,233 C 914.2026794915836,213.390243902439 968.9007214015803,188.9512195121951 1023,196 C 1077.0992785984197,203.0487804878049 1130.599793885263,241.58536585365852 1200,253 C 1269.400206114737,264.4146341463415 1354.7001030573686,248.70731707317074 1440,233 L 1440,400 L 0,400 Z"
+            );
+          }
+          75% {
+            d: path(
+              "M 0,400 L 0,233 C 73.30264513912743,255.12435589144624 146.60529027825487,277.2487117828925 221,265 C 295.39470972174513,252.75128821710751 370.88148402610784,206.1295087598763 439,206 C 507.11851597389216,205.8704912401237 567.8687736173136,252.23325317760225 625,260 C 682.1312263826864,267.76674682239775 735.6434215046376,236.93747852971487 807,220 C 878.3565784953624,203.06252147028513 967.557540364136,200.01683270353828 1037,200 C 1106.442459635864,199.98316729646172 1156.126417038818,202.99519065613194 1220,209 C 1283.873582961182,215.00480934386806 1361.936791480591,224.00240467193402 1440,233 L 1440,400 L 0,400 Z"
+            );
+          }
+          100% {
+            d: path(
+              "M 0,400 L 0,233 C 82.87255238749569,250.31776021985573 165.74510477499138,267.63552043971146 224,257 C 282.2548952250086,246.36447956028854 315.89213328753016,207.77567846100993 384,193 C 452.10786671246984,178.22432153899007 554.6863620748883,187.26176571624873 640,189 C 725.3136379251117,190.73823428375127 793.3624184129166,185.1772586739952 850,184 C 906.6375815870834,182.8227413260048 951.8639642734456,186.02919958777053 1021,209 C 1090.1360357265544,231.97080041222947 1183.1817244933013,274.7059429749227 1257,282 C 1330.8182755066987,289.2940570250773 1385.4091377533493,261.14702851253867 1440,233 L 1440,400 L 0,400 Z"
+            );
+          }
+        }
+      </style>
+      <defs>
+        <linearGradient id="gradient" x1="50%" y1="100%" x2="50%" y2="0%">
+          <stop offset="5%" stop-color="#80878c"></stop>
+          <stop offset="95%" stop-color="#b8ff03"></stop>
+        </linearGradient>
+      </defs>
+      <path
+        d="M 0,400 L 0,233 C 82.87255238749569,250.31776021985573 165.74510477499138,267.63552043971146 224,257 C 282.2548952250086,246.36447956028854 315.89213328753016,207.77567846100993 384,193 C 452.10786671246984,178.22432153899007 554.6863620748883,187.26176571624873 640,189 C 725.3136379251117,190.73823428375127 793.3624184129166,185.1772586739952 850,184 C 906.6375815870834,182.8227413260048 951.8639642734456,186.02919958777053 1021,209 C 1090.1360357265544,231.97080041222947 1183.1817244933013,274.7059429749227 1257,282 C 1330.8182755066987,289.2940570250773 1385.4091377533493,261.14702851253867 1440,233 L 1440,400 L 0,400 Z"
+        stroke="none"
+        stroke-width="0"
+        fill="url(#gradient1)"
+        fill-opacity="1"
+        display="block"
+        class="transition-all duration-300 ease-in-out delay-150 path-1"
+      ></path>
+    </svg>
+
+    <!---------------------------Boton subir---------------------------------------------------------------------------------------------->
+
+    <a id="btnUp" href="#"><i class="fa-solid fa-circle-arrow-up"></i></a>
+
+    <!----------------------------------FOODER------------------------------------------------------------->
+
+    <footer>
+      <article class="wow animate__animated animate__fadeInRight artic-footer">
+        <!-- <figure class="img-footer"><img src="img/logo.png" alt="" /></figure> -->
+        <h1>ARC</h1>
+        <a href="#"
+          ><i class="fa-solid fa-phone-volume"></i> +52 999 309 3310</a
+        >
+        <a href="#"
+          ><i class="fa-solid fa-location-dot"></i> C-37 Chichi Suárez</a
+        >
+        <a href="www.outlook.com"
+          ><i class="fa-solid fa-envelope"></i> aaronchi97@outlook.com</a
+        >
+      </article>
+
+      <div class="parte-div">
+        <p>AARÓN ENRIQUE CHI BÉJAR</p>
+
+        <figure class="iconos-footer">
+          <a href="https://www.facebook.com/aaron.chi1?mibextid=ZbWKwL"
+            ><i class="fa-brands fa-facebook-f"></i
+          ></a>
+          <a href="https://www.instagram.com/aaron__cb?igsh=bTFoYXhiajhuY2Y0">
+            <i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/aaron-enrique-chi-bejar-5b9175295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          >
+            <i class="fa-brands fa-linkedin"></i
+          ></a>
+
+          <a href="https://twitter.com/aaronchi97"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+        </figure>
+      </div>
+    </footer>
+
+    <script>
+      //MENU
+      $("#barramenu").click(function () {
+        //con slideToggle se abre y cierra el menu, al dar click obviamente
+        $("#cajamenu").slideToggle();
+      });
+
+      $("#barramenu").click(function () {
+        $("#div-espacio").toggleClass("desaparecer-div");
+      });
+
+      //RESPONSIVESLIDES
+      $(function () {
+        $(".rslides").responsiveSlides({});
+      });
+
+      $(".titulo1").click(function () {
+        $(".contenido1").slideToggle();
+        $(".mas1").toggleClass("desaparecer");
+        $(".titulo1").toggleClass("text");
+      });
+
+      $(".titulo2").click(function () {
+        $(".contenido2").slideToggle();
+        $(".mas2").toggleClass("desaparecer");
+        $(".titulo2").toggleClass("text");
+      });
+
+      $(".titulo3").click(function () {
+        $(".contenido3").slideToggle();
+        $(".mas3").toggleClass("desaparecer");
+        $(".titulo3").toggleClass("text");
+      });
+
+      $(".titulo4").click(function () {
+        $(".contenido4").slideToggle();
+        $(".mas4").toggleClass("desaparecer");
+        $(".titulo4").toggleClass("text");
+      });
+
+      //CARRUSEL---------------------------------------------------------------------------------
+      $(document).ready(function () {
+        $("#slider1").tinycarousel({
+          interval: true,
+          animationTime: 2000,
+          intervalTime: 6000,
+        });
+
+        var slider1 = $("#slider1").data("plugin_tinycarousel");
+
+        // The start method starts the interval.
+
+        $("#startslider").click(function () {
+          slider1.start();
+
+          return false;
+        });
+
+        $("#startslider2").click(function () {
+          slider1.start();
+
+          return false;
+        });
+
+        $("#startslider3").click(function () {
+          slider1.start();
+
+          return false;
+        });
+        // The stop method stops the interval.
+
+        $("#stopslider").click(function () {
+          slider1.stop();
+
+          return false;
+        });
+
+        $("#stopslider2").click(function () {
+          slider1.stop();
+
+          return false;
+        });
+
+        $("#stopslider3").click(function () {
+          slider1.stop();
+
+          return false;
+        });
+      });
+
+      //boton subir------------------------------------------------------------------------------
+
+      // Obtener referencia al enlace
+      var btnup = document.getElementById("btnUp");
+
+      btnup.addEventListener("click", function (event) {
+        event.preventDefault(); // Evitar el comportamiento predeterminado del enlace
+
+        // Hacer scroll hasta la parte superior de la página
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth", // Para un desplazamiento suave
+        });
+      });
+
+      // Mostrar u ocultar el botón al hacer scroll
+      window.addEventListener("scroll", function () {
+        if (window.pageYOffset > 100) {
+          btnup.style.display = "block";
+        } else {
+          btnup.style.display = "none";
+        }
+      });
+
+      //WOW-----------------------------------------------------------------------
+      new WOW().init();
+    </script>
+
+    <!-- FUNCION DE MENU VISIBLE CON SCROLL--------------------------------------- -->
+    <script type="text/javascript">
+      window.addEventListener("scroll", function () {
+        var nav = document.querySelector("nav");
+        nav.classList.toggle("menu", window.scrollY > 0);
+      });
+    </script>
+
+    <script>
+      $(".slide-indicator").click(function () {
+        $(" .slide-indicator").removeClass("active"); //quita la clase "active"
+        $(this).addClass("active"); //Agrega la clase active al tab seleccionado
+        //$(".tabs_contenido-t1").hide(); //Oculta el contenido de la pestaña
+      });
+    </script>
+
+    <script>
+      //PESTAÑAS----------------------------------------------------------------
+      $(
+        ".6, .7, .8, .9, .10, .11, .12, .13, .14, .15, .16, .17, .18, .22, .23, .24, .25, .26, .27, .28, .29, .30, .31, .32, .33, .34"
+      ).hide(); //oculta todo el contenido
+      $("ul.tabs-t1 li:first").addClass("active").show(); //Activa el css del primer tab
+      $(".tabs_contenido-t1:first").show(); //muestra el conetenido del primer tab
+
+      //EVENTO CLICK AL BOTON
+      $("ul.tabs-t1 li").click(function () {
+        $(" ul.tabs-t1 li").removeClass("active"); //quita la clase "active"
+        $(this).addClass("active"); //Agrega la clase active al tab seleccionado
+        $(".tabs_contenido-t1").hide(); //Oculta el contenido de la pestaña
+
+        var activeTab = $(this).find("a").attr("href");
+        //$(activeTab).fadeIn(); //Desvanece el contenedor activo
+
+        if (activeTab === "#tab1") {
+          $(".1, .2, .3, .4, .5, .19, .20, .21").fadeIn();
+        }
+
+        if (activeTab === "#tab2") {
+          $("#tab9, #tab10, #tab11, #tab12, #tab13").fadeIn();
+        }
+
+        if (activeTab === "#tab3") {
+          $("#tab14, #tab15, #tab16, #tab17, #tab18").fadeIn();
+        }
+
+        if (activeTab === "#tab4") {
+          $("#tab22, #tab23, #tab24, #tab25, #tab26").fadeIn();
+        }
+
+        if (activeTab === "#tab5") {
+          $("#tab1, #tab2, #tab6, #tab7, #tab8").fadeIn();
+        }
+
+        if (activeTab === "#tab50") {
+          $("#tab27, #tab28, #tab29, #tab30, #tab31").fadeIn();
+        }
+
+        if (activeTab === "#tab51") {
+          $("#tab32, #tab33, #tab34").fadeIn();
+        }
+
+        return false;
+      });
+    </script>
+
+    <script>
+      //MODAL BOTON BUCAR------------------------------------------------------------------
+      var nodal2 = document.getElementById("nodal2");
+      var btnbucar = document.getElementById("icono-buscar");
+
+      var btnSearch = document.getElementById("btnsearch");
+
+      btnbucar.onclick = function () {
+        nodal2.style.display = "flex";
+      };
+
+      //para utizar todo el area del navegador para cerrar
+      window.onclick = function (event) {
+        if (event.target == nodal2) {
+          nodal2.style.display = "none";
+        }
+      };
+
+      const searchContainer = document.querySelector(".search-container");
+      const searchInput = document.querySelector('input[type="text"]');
+
+      searchContainer.addEventListener("click", function (event) {
+        // Cuando se hace clic en el contenedor de búsqueda, enfocar el campo de entrada
+        searchInput.focus();
+      });
+
+      //busquedas reales en google
+      btnSearch.addEventListener("keyup", function (event) {
+        event.preventDefault();
+        if (event.keyCode === 13) {
+          searchGoogle();
+        }
+      });
+
+      function searchGoogle() {
+        var searchTerm = btnSearch.value;
+        var encodedSearchTerm = encodeURIComponent(searchTerm);
+        var googleSearchUrl =
+          "https://www.google.com/search?q=" + encodedSearchTerm;
+        window.location.href = googleSearchUrl;
+      }
+    </script>
+  </body>
+</html>
