@@ -513,11 +513,11 @@
   }
 
   .iconos-footer {
-    gap: 50px;
+    gap: 30px;
   }
   .iconos-footer i {
     font-size: 25px;
-    color: var(--color-secundario3);
+    color: var(--color-azulgris);
     display: block;
     transition: all 0.5s;
   }
@@ -579,11 +579,11 @@
     right: 0;
     /* border: 2px red solid; */
   }
-  .callbacks_nav.next {
+  /* .callbacks_nav.next {
     right: 0;
     top: 52%;
-    /* border: 2px blue solid; */
-  }
+
+  } */
 
   /* PESTAÑAS------------------------------- */
   .titulo p {
@@ -654,8 +654,46 @@
 }
 
 @media screen and (max-width: 400px) {
-  /* Estilos para pantalla móvil */
+  /* Estilos para pantalla móvil pantalla chica*/
   .modal-content {
     background-color: transparent;
+  }
+}
+
+/* AJUSTES DE MEDIDA PARA FLECHA SLIDE DERECHA DE SLIDE PRINCIPAL------------ */
+
+@media screen and (max-width: 520px) {
+  /* Estilos para pantalla móvil-tablet promedio */
+  .callbacks_nav.next {
+    left: 88%;
+    top: 52%;
+    /* border: 1px red solid; */
+  }
+}
+
+@media screen and (max-width: 430px) {
+  /* Estilos para pantalla móvil-tablet promedio */
+  .callbacks_nav.next {
+    left: 86%;
+    top: 52%;
+    /* border: 1px red solid; */
+  }
+}
+
+@media screen and (max-width: 370px) {
+  /* Estilos para pantalla móvil-tablet promedio */
+  .callbacks_nav.next {
+    left: 84%;
+    top: 52%;
+    /* border: 1px red solid; */
+  }
+}
+
+@media screen and (max-width: 330px) {
+  /* Estilos para pantalla móvil-tablet promedio */
+  .callbacks_nav.next {
+    left: 81%;
+    top: 52%;
+    /* border: 1px red solid; */
   }
 }

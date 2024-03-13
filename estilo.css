@@ -1932,7 +1932,8 @@ h2 {
   object-fit: cover;
 }
 .callbacks_container ul {
-  margin: 0px;
+  /* margin: 0px; */
+  margin: 0;
 }
 
 /* texto en la imagen */
@@ -2032,7 +2033,7 @@ h2 {
 .callbacks_nav.next {
   left: 90%;
   top: 52%;
-  /* border: 1px white solid; */
+  /* border: 1px red solid; */
 }
 
 /* .png-titulo {
