@@ -1213,7 +1213,7 @@
     <section class="sec-ir-galeria ancho">
       <img src="img/png/svg1.svg" alt="" />
 
-      <a href="galeria.html" class="bar-anchor">
+      <a id="irGaleria" href="" class="bar-anchor">
         <span>VER GALERÍA</span>
         <div class="transition-bar"></div>
       </a>
@@ -1612,6 +1612,23 @@
           "https://www.google.com/search?q=" + encodedSearchTerm;
         window.location.href = googleSearchUrl;
       }
+    </script>
+
+    <script>
+      // Obtener el elemento <a> por su ID
+      const obtenerCVLink = document.getElementById("irGaleria");
+
+      // Agregar un evento de clic al enlace
+      obtenerCVLink.addEventListener("click", function (event) {
+        // Evitar que el enlace siga su comportamiento predeterminado (navegar a una nueva página)
+        event.preventDefault();
+
+        // Esperar 1.5 segundos antes de redireccionar
+        setTimeout(function () {
+          // Redireccionar a la URL deseada
+          window.location.href = "galeria.html";
+        }, 1000); // 1500 milisegundos = 1.5 segundos
+      });
     </script>
 
     <!-- <script>
