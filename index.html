@@ -68,7 +68,9 @@
       <!-- <figure class="logoPrincipal">
         <img src="img/logo.png" alt="" />
       </figure> -->
-      <a class="wow animate__animated animate__zoomInRight">ARC</a>
+      <a href="index.html" class="wow animate__animated animate__zoomInRight"
+        ><h1>ARC</h1></a
+      >
 
       <ul class="menu-list">
         <li><a href="index.html"> Home</a></li>
@@ -147,7 +149,11 @@
                 </a>
                </section> -->
 
-              <button id="button" class="ready" onclick="clickButton();">
+              <button
+                id="button"
+                class="wow animate__animated animate__pulse animate__infinite infinite ready"
+                onclick="clickButton();"
+              >
                 <div class="message submitMessage">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 12.2">
                     <polyline
@@ -258,7 +264,7 @@
 
     <!-- BOTON PARA IR A PROYECTOS-------------------------------------
    -->
-    <a href="servicios.html" class="btn-proyectos">
+    <a id="obtenerProyectos" class="btn-proyectos">
       <div class="container">
         <button class="btn">VER PROYECTOS</button>
       </div>
@@ -914,7 +920,9 @@
     <footer>
       <article class="wow animate__animated animate__fadeInRight artic-footer">
         <!-- <figure class="img-footer"><img src="img/logo.png" alt="" /></figure> -->
-        <h1>ARC</h1>
+        <a href="index.html" class="wow animate__animated animate__zoomInRight"
+          ><h1>ARC</h1></a
+        >
         <a href="#"
           ><i class="fa-solid fa-phone-volume"></i> +52 999 309 3310</a
         >
@@ -1203,6 +1211,24 @@
           window.location.href =
             "https://www.cakeresume.com/pdf/s--4o1QWK4sd0z5zsLhgpfo0A--/7m8zW.pdf";
         }, 4000); // 900 milisegundos = 0.9 segundos
+      });
+    </script>
+
+    <script>
+      // Obtener el elemento <a> por su ID
+
+      const obtenerProyectosLink = document.getElementById("obtenerProyectos");
+
+      // Agregar un evento de clic al enlace
+      obtenerProyectosLink.addEventListener("click", function (event) {
+        // Evitar que el enlace siga su comportamiento predeterminado (navegar a una nueva página)
+        event.preventDefault();
+
+        // Esperar 1.5 segundos antes de redireccionar
+        setTimeout(function () {
+          // Redireccionar a la URL deseada
+          window.location.href = "servicios.html";
+        }, 1000); // 900 milisegundos = 0.9 segundos
       });
     </script>
 

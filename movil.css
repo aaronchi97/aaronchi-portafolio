@@ -518,7 +518,7 @@
   }
   .iconos-footer i {
     font-size: 25px;
-    color: var(--color-azulgris);
+    /* color: var(--color-azulgris); */
     display: block;
     transition: all 0.5s;
   }
@@ -604,7 +604,7 @@
   .fondo {
     top: 0;
     left: 0;
-    background-color: rgb(101, 148, 148, 0.2);
+    background-color: rgba(46, 64, 87, 0.4);
   }
 
   .sec-ul ul {
@@ -627,6 +627,11 @@
     padding: 5px;
 
     width: 100%;
+    /* border: 1px red solid; */
+  }
+
+  .acordeon_titulo h2 {
+    text-align: start;
     /* border: 1px red solid; */
   }
 

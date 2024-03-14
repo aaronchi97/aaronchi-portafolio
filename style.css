@@ -104,15 +104,7 @@ button.btn:hover::before {
   left: 0.35rem;
 } /*# sourceMappingURL=style.css.map */
 
-@media screen and (max-width: 660px) {
-  /* Estilos para pantalla móvil */
-  .container {
-    width: 340px;
-    margin: auto;
-  }
-}
-
-/* BOTON PARA CV ESTILO 2 ----------------------------------------------------------------------------------------- */
+/* BOTON PARA CV ESTILO CONFETI 2 ----------------------------------------------------------------------------------------- */
 
 @keyframes loading {
   0% {
@@ -149,16 +141,17 @@ canvas {
   font-size: 14px;
   font-weight: 500;
   height: 45px;
-  left: 50%;
+  left: 40%;
   outline: none;
   overflow: hidden;
   padding: 0 10px;
   position: fixed;
   top: 80%;
   transform: translate(-50%, -50%);
-  width: 170px;
+  width: 190px;
   -webkit-tap-highlight-color: transparent;
   z-index: 1;
+  /* border: 1px red solid; */
 
   &::before {
     background: #1f2335;
@@ -354,5 +347,19 @@ button.complete {
     display: block;
     font-size: 7px;
     line-height: 7px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  /* Estilos para pantalla móvil */
+  .container {
+    width: 340px;
+    margin: auto;
+  }
+
+  /* BOTON PARA CV------------------------------ */
+  #button {
+    left: 28%;
+    width: 160px;
   }
 }

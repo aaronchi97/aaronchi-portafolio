@@ -83,7 +83,7 @@ font-family: "Murecho", sans-serif;
   color: var(--color-secundario3);
   position: fixed;
   right: 3%;
-  bottom: 10%;
+  bottom: 5%;
   display: none;
   transition: all 0.5s;
   z-index: 900;
@@ -315,18 +315,22 @@ textarea::placeholder {
 
 input[type="submit"] {
   width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--color-secundario2);
-
-  border-radius: 10px;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-}
-
-.enviar-form {
   color: #203248;
+  border-radius: 10px;
+  /* color: #fff; */
+  border: none;
+  /* padding: 10px 20px; */
+  cursor: pointer;
+  text-align: center;
 }
+
+/* .enviar-form {
+  color: #203248;
+} */
 
 input:hover[type="submit"] {
   background-color: #008ffc;
@@ -1181,6 +1185,7 @@ iframe {
   align-items: center;
   font-family: var(--txt-decorativo);
   color: var(--color-fondo3);
+  /* border: 1px red solid; */
 }
 
 .acordeon_titulo:hover h2 {
@@ -1293,9 +1298,9 @@ footer {
   font-family: var(--txt-titulo);
   color: var(--color-secundario2);
   background-color: var(--color-fondo);
-  padding: 5px;
+  /* padding: 5px;
   padding-bottom: 20px;
-  padding-top: 20px;
+  padding-top: 20px; */
 }
 .artic-footer {
   /* width: 40%; */
@@ -1308,6 +1313,7 @@ footer {
   align-items: center;
   text-align: center;
   gap: 20px;
+  padding-bottom: 40px;
   /* border: 1px red solid; */
 }
 .artic-footer h1 {

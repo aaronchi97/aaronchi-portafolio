@@ -128,7 +128,7 @@
       </ul>
 
       <div class="info">
-        <h1>CONTÁCTO</h1>
+        <h1>CONTACTO</h1>
       </div>
     </section>
 
@@ -396,7 +396,9 @@
     <footer>
       <article class="wow animate__animated animate__fadeInRight artic-footer">
         <!-- <figure class="img-footer"><img src="img/logo.png" alt="" /></figure> -->
-        <h1>ARC</h1>
+        <a href="index.html" class="wow animate__animated animate__zoomInRight"
+          ><h1>ARC</h1></a
+        >
         <a href="#"
           ><i class="fa-solid fa-phone-volume"></i> +52 999 309 3310</a
         >
@@ -548,6 +550,11 @@
 
         // Agregar o quitar la clase según la condición
         nav.classList.toggle("menu", !isInsideSlidePhone);
+
+        // Si el usuario está de vuelta al inicio, eliminar la clase "menu"
+        if (scrollY === 0) {
+          nav.classList.remove("menu");
+        }
       });
     </script>
 
