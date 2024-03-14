@@ -1488,23 +1488,44 @@
       // Obtener referencia al enlace
       var btnup = document.getElementById("btnUp");
 
+      // Función para cambiar el color del botón
+      function changeButtonColor() {
+        // Obtener la posición del usuario en la página
+        var scrollPosition = window.innerHeight + window.scrollY;
+        var pageHeight = document.body.offsetHeight;
+
+        // Si la posición de desplazamiento más la altura de la ventana es igual a la altura total de la página
+        if (scrollPosition >= pageHeight) {
+          // Cambiar el color del botón
+          btnup.style.color = "#203248"; // Cambia el color a rojo cuando llega al final
+        } else {
+          // Restablecer el color del botón si no está al final de la página
+          btnup.style.color = ""; // Cambia el color a su estado original
+        }
+      }
+
+      // Evento de clic en el botón para hacer scroll hacia arriba
       btnup.addEventListener("click", function (event) {
         event.preventDefault(); // Evitar el comportamiento predeterminado del enlace
 
         // Hacer scroll hasta la parte superior de la página
         window.scrollTo({
           top: 0,
-          behavior: "smooth", // Para un desplazamiento suave
+          behavior: "smooth",
         });
       });
 
-      // Mostrar u ocultar el botón al hacer scroll
+      // Evento de scroll para mostrar u ocultar el botón
       window.addEventListener("scroll", function () {
+        // Si el usuario ha hecho scroll más de 100px, muestra el botón
         if (window.pageYOffset > 100) {
           btnup.style.display = "block";
         } else {
           btnup.style.display = "none";
         }
+
+        // Llamar a la función para cambiar el color del botón
+        changeButtonColor();
       });
 
       //WOW-----------------------------------------------------------------------

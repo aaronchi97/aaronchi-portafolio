@@ -87,6 +87,7 @@ font-family: "Murecho", sans-serif;
   display: none;
   transition: all 0.5s;
   z-index: 900;
+  /* border: 1px red solid; */
 }
 
 /* BOTON DE PROYECTOS VER RESTO EN STYLE.CSS------------------------- */

@@ -47,7 +47,7 @@
 
   .titulo h1 {
     width: 100%;
-    font-size: 16px;
+    font-size: 18px;
     /* border: 1px red solid; */
     text-align: center;
   }
@@ -222,7 +222,7 @@
     gap: 30px;
     padding: 10px;
     margin-top: 50px;
-    margin-bottom: 80px;
+    margin-bottom: 140px;
   }
 
   .tarjeta {
@@ -256,6 +256,8 @@
 
   #btnUp {
     font-size: 25px;
+    bottom: 10px;
+    right: 10px;
   }
 
   /*-----------------ABAOUT------------------------------------------*/
@@ -433,6 +435,7 @@
   .sec-video {
     min-height: 500px;
     background-position: center;
+    background-image: url(img/servicios/foto4.jpg);
   }
 
   /*------------------SECCIONES FOTOS-------------------------------------------------------*/
