@@ -135,12 +135,14 @@
 
 /*por cambiar a phone */
 .botones-presentacion {
+  height: 100px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 30px;
   position: relative;
+  /* border: 2px red solid; */
 }
 
 .boton-presentacion1 {

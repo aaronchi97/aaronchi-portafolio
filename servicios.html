@@ -119,7 +119,7 @@
       </ul>
 
       <div class="info">
-        <h1>Proyectos</h1>
+        <h1>PROYECTOS</h1>
       </div>
     </section>
 
@@ -213,10 +213,6 @@
 
           <a href="galeria.html"
             ><i class="fa-solid fa-circle-arrow-right"></i
-          ></a>
-
-          <a href="https://github.com/aaronchi97"
-            ><i class="fa-brands fa-github"></i
           ></a>
         </div>
       </figure>
@@ -1350,6 +1346,9 @@
         <a href="www.outlook.com"
           ><i class="fa-solid fa-envelope"></i> aaronchi97@outlook.com</a
         >
+        <a href="https://github.com/aaronchi97"
+          ><i class="fa-brands fa-github"></i
+        ></a>
       </article>
 
       <div class="parte-div">
@@ -1501,9 +1500,9 @@
 
         // Obtener la posición del scroll y el límite superior e inferior de #slide-phone
         var scrollY = window.scrollY;
-        var slidePhoneTop = slidePhone.offsetTop - 10; // 20px antes de entrar
+        var slidePhoneTop = slidePhone.offsetTop - 20; // 20px antes de entrar
         var slidePhoneBottom =
-          slidePhoneTop + (slidePhone.offsetHeight * 7) / 8; // 3/8 del contenedor
+          slidePhoneTop + (slidePhone.offsetHeight * 11) / 12; // 3/8 del contenedor
 
         // Verificar si el scroll está dentro del área de #slide-phone
         var isInsideSlidePhone =
@@ -1511,6 +1510,11 @@
 
         // Agregar o quitar la clase según la condición
         nav.classList.toggle("menu", !isInsideSlidePhone);
+
+        // Si el usuario está de vuelta al inicio, eliminar la clase "menu"
+        if (scrollY === 0) {
+          nav.classList.remove("menu");
+        }
       });
     </script>
 

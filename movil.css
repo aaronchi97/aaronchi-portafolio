@@ -222,7 +222,7 @@
     gap: 30px;
     padding: 10px;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
   }
 
   .tarjeta {
@@ -472,7 +472,8 @@
   }
   .sec1 {
     width: 80%;
-    height: 600px;
+    margin-bottom: 60px;
+    /* height: 600px; */
     /*  border: 1px blue solid; */
   }
 
@@ -633,6 +634,13 @@
     width: 100%;
 
     padding: 20px;
+  }
+
+  .txt-forms-abajo i {
+    position: absolute;
+    left: 5%;
+    bottom: 15%;
+    font-size: 30px;
   }
 
   form {

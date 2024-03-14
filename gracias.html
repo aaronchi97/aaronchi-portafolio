@@ -127,7 +127,7 @@
               <section
                 class="portfolio-experiment wow animate__animated animate__pulse animate__infinite infinite"
               >
-                <a>
+                <a id="obtenerCV">
                   <span class="text"
                     >OBTENER CV
                     <i
@@ -190,7 +190,9 @@
           <i class="fa-solid fa-rectangle-xmark"></i>
         </div>
 
-        <h1>Envío realizado!</h1>
+        <h1>
+          ¡ENVÍO REALIZADO! <i class="fa-brands fa-galactic-republic"></i>
+        </h1>
 
         <p>¡Te agradezco por darme una oportunidad!</p>
       </section>
@@ -562,6 +564,24 @@
 
         // Agregar o quitar la clase según la condición
         nav.classList.toggle("menu", !isInsideSlidePhone);
+      });
+    </script>
+
+    <script>
+      // Obtener el elemento <a> por su ID
+      const obtenerCVLink = document.getElementById("obtenerCV");
+
+      // Agregar un evento de clic al enlace
+      obtenerCVLink.addEventListener("click", function (event) {
+        // Evitar que el enlace siga su comportamiento predeterminado (navegar a una nueva página)
+        event.preventDefault();
+
+        // Esperar 1.5 segundos antes de redireccionar
+        setTimeout(function () {
+          // Redireccionar a la URL deseada
+          window.location.href =
+            "https://www.cakeresume.com/pdf/s--4o1QWK4sd0z5zsLhgpfo0A--/7m8zW.pdf";
+        }, 950); // 900 milisegundos = 0.9 segundos
       });
     </script>
   </body>

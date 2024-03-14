@@ -568,7 +568,25 @@
     <script type="text/javascript">
       window.addEventListener("scroll", function () {
         var nav = document.querySelector("nav");
-        nav.classList.toggle("menu", window.scrollY > 0);
+        var slidePhone = document.getElementById("galeria");
+
+        // Obtener la posición del scroll y el límite superior e inferior de #slide-phone
+        var scrollY = window.scrollY;
+        var slidePhoneTop = slidePhone.offsetTop - 20; // 20px antes de entrar
+        var slidePhoneBottom =
+          slidePhoneTop + (slidePhone.offsetHeight * 11) / 12; // 3/8 del contenedor
+
+        // Verificar si el scroll está dentro del área de #slide-phone
+        var isInsideSlidePhone =
+          scrollY >= slidePhoneTop && scrollY <= slidePhoneBottom;
+
+        // Agregar o quitar la clase según la condición
+        nav.classList.toggle("menu", !isInsideSlidePhone);
+
+        // Si el usuario está de vuelta al inicio, eliminar la clase "menu"
+        if (scrollY === 0) {
+          nav.classList.remove("menu");
+        }
       });
     </script>
 
