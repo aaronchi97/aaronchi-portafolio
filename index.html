@@ -353,10 +353,9 @@
           </figure>
           <h1>AARÓN ENRIQUE CHI BÉJAR</h1>
           <p>
-            Soy un estudiante apasionado de Ingeniería en Sistemas
-            Computacionales. Actualmente especializándome en el área de las
-            tecnologías de la información. Me caracterizo por mi entusiasmo por
-            el aprendizaje continuo.
+            Estudiante apasionado de Ingeniería en Sistemas Computacionales, con
+            especialización en el área de las tecnologías de la información.
+            Entusiasta y motivado por la mejora continua.
           </p>
           <div class="iconos-artic2">
             <a href="https://www.facebook.com/aaron.chi1?mibextid=ZbWKwL"
@@ -1041,22 +1040,7 @@
 
       // Obtener referencia al enlace
       var btnup = document.getElementById("btnUp");
-
-      // Función para cambiar el color del botón
-      function changeButtonColor() {
-        // Obtener la posición del usuario en la página
-        var scrollPosition = window.innerHeight + window.scrollY;
-        var pageHeight = document.body.offsetHeight;
-
-        // Si la posición de desplazamiento más la altura de la ventana es igual a la altura total de la página
-        if (scrollPosition >= pageHeight) {
-          // Cambiar el color del botón
-          btnup.style.color = "#203248"; // Cambia el color a rojo cuando llega al final
-        } else {
-          // Restablecer el color del botón si no está al final de la página
-          btnup.style.color = ""; // Cambia el color a su estado original
-        }
-      }
+      var pageHeight = document.body.offsetHeight - window.innerHeight;
 
       // Evento de clic en el botón para hacer scroll hacia arriba
       btnup.addEventListener("click", function (event) {
@@ -1069,17 +1053,23 @@
         });
       });
 
-      // Evento de scroll para mostrar u ocultar el botón
+      // Evento de scroll para mostrar u ocultar el botón y cambiar su color
       window.addEventListener("scroll", function () {
+        var scrollPosition = window.pageYOffset;
+
         // Si el usuario ha hecho scroll más de 100px, muestra el botón
-        if (window.pageYOffset > 100) {
+        if (scrollPosition > 100) {
           btnup.style.display = "block";
         } else {
           btnup.style.display = "none";
         }
 
-        // Llamar a la función para cambiar el color del botón
-        changeButtonColor();
+        // Si el usuario ha llegado al final de la página, cambia el color del botón
+        if (scrollPosition >= pageHeight) {
+          btnup.style.color = "#203248"; // Cambia el color a rojo
+        } else {
+          btnup.style.color = ""; // Restablece el color a su estado original
+        }
       });
 
       //CARRUSEL FOTOS GALERIA

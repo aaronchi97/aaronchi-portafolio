@@ -596,9 +596,11 @@ input:hover[type="submit"] {
   font-size: var(--parrafo-size);
   font-family: var(--txt-parrafo);
   font-weight: 300;
-  width: 65%;
+  width: 70%;
   color: whitesmoke;
   /* text-align: center; */
+
+  /* word-spacing: normal; */
   /* border: 1px red solid; */
 }
 .iconos-artic {
