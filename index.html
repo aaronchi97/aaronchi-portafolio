@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -123,7 +123,7 @@
       <ul class="rslides" id="slider4">
         <li>
           <!-- filtro en .rslides img -->
-          <img src="img/boda/foto1011.jpg" alt="" />
+          <img src="img/boda/IMG_bib.jpg" alt="" />
           <article class="articulo-presentacion">
             <h2>Hola, que tal!</h2>
             <h1>
@@ -157,7 +157,7 @@
               <button
                 id="button"
                 class="wow animate__animated animate__pulse animate__infinite infinite ready"
-                onclick="clickButton();"
+                onclick="clickButton()"
               >
                 <div class="message submitMessage">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 12.2">
@@ -589,7 +589,15 @@
               src="https://www.youtube.com/embed/_qgX1Ekz9hQ?si=7UuQ8CQ7_x3keM0U"
               title="YouTube video player"
               frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allow="
+                accelerometer;
+                autoplay;
+                clipboard-write;
+                encrypted-media;
+                gyroscope;
+                picture-in-picture;
+                web-share;
+              "
               allowfullscreen
             ></iframe>
           </div>
@@ -1322,11 +1330,11 @@
         this.position = {
           x: randomRange(
             canvas.width / 2 - button.offsetWidth / 4,
-            canvas.width / 2 + button.offsetWidth / 4
+            canvas.width / 2 + button.offsetWidth / 4,
           ),
           y: randomRange(
             canvas.height / 2 + button.offsetHeight / 2 + 8,
-            canvas.height / 2 + 1.5 * button.offsetHeight - 8
+            canvas.height / 2 + 1.5 * button.offsetHeight - 8,
           ),
         };
         this.rotation = randomRange(0, 2 * Math.PI);
@@ -1341,7 +1349,7 @@
         this.velocity.x -= this.velocity.x * dragConfetti;
         this.velocity.y = Math.min(
           this.velocity.y + gravityConfetti,
-          terminalVelocity
+          terminalVelocity,
         );
         this.velocity.x += Math.random() > 0.5 ? Math.random() : -Math.random();
 
@@ -1355,22 +1363,22 @@
 
       // Sequin Class
       function Sequin() {
-        (this.color = colors[Math.floor(randomRange(0, colors.length))].back),
+        ((this.color = colors[Math.floor(randomRange(0, colors.length))].back),
           (this.radius = randomRange(1, 2)),
           (this.position = {
             x: randomRange(
               canvas.width / 2 - button.offsetWidth / 3,
-              canvas.width / 2 + button.offsetWidth / 3
+              canvas.width / 2 + button.offsetWidth / 3,
             ),
             y: randomRange(
               canvas.height / 2 + button.offsetHeight / 2 + 8,
-              canvas.height / 2 + 1.5 * button.offsetHeight - 8
+              canvas.height / 2 + 1.5 * button.offsetHeight - 8,
             ),
           }),
           (this.velocity = {
             x: randomRange(-6, 6),
             y: randomRange(-8, -12),
-          });
+          }));
       }
       Sequin.prototype.update = function () {
         // apply forces to velocity
@@ -1423,7 +1431,7 @@
               canvas.width / 2 - button.offsetWidth / 2,
               canvas.height / 2 + button.offsetHeight / 2,
               button.offsetWidth,
-              button.offsetHeight
+              button.offsetHeight,
             );
           }
         });
@@ -1452,7 +1460,7 @@
               canvas.width / 2 - button.offsetWidth / 2,
               canvas.height / 2 + button.offsetHeight / 2,
               button.offsetWidth,
-              button.offsetHeight
+              button.offsetHeight,
             );
           }
         });

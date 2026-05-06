@@ -364,11 +364,8 @@ input:hover[type="submit"] {
   align-items: center;
   gap: 0;
   position: relative;
-  background: linear-gradient(
-      50deg,
-      rgba(40, 42, 55, 0.9) 50%,
-      rgba(40, 42, 55, 0.4)
-    ),
+  background:
+    linear-gradient(50deg, rgba(40, 42, 55, 0.9) 50%, rgba(40, 42, 55, 0.4)),
     url(img/fondos/oneship.jpg);
   background-size: cover;
   background-position: center center;
@@ -1043,7 +1040,7 @@ iframe {
   border: 0;
   height: 500px;
   object-fit: cover;
-  filter: brightness(40%);
+  filter: brightness(25%);
 }
 
 .sec-fotos {
@@ -1270,11 +1267,8 @@ iframe {
 .fondo-form {
   width: 90%;
   padding: 20px;
-  background: linear-gradient(
-      50deg,
-      rgba(40, 42, 55, 0.9) 50%,
-      rgba(40, 42, 55, 0.4)
-    ),
+  background:
+    linear-gradient(50deg, rgba(40, 42, 55, 0.9) 50%, rgba(40, 42, 55, 0.4)),
     url(img/fondos/oneship.jpg);
   background-repeat: no-repeat;
   background-size: cover;
