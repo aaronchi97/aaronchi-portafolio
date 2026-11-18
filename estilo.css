@@ -1015,6 +1015,14 @@ iframe {
   margin: 0;
   /* display: none; */
 }
+.rslides2 img {
+  display: block;
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  object-position: center bottom;
+  filter: brightness(25%);
+}
 
 .rslides li {
   -webkit-backface-visibility: hidden;
