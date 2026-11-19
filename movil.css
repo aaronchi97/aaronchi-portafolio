@@ -413,15 +413,15 @@
 
   /*-----------------VIDEO--------------------------------------------------*/
 
-  .video-responsive {
+  /* .video-responsive {
     width: 100%;
     margin: 0 auto;
-    /* border: 2px red solid; */
+
   }
   .modal-content {
     width: 90%;
 
-    /* max-width: 800px; */
+  
     height: 240px;
     top: 50%;
     left: 44%;
@@ -432,6 +432,34 @@
     width: 100%;
     height: 200px;
   }
+  .sec-video {
+    min-height: 500px;
+    background-position: center;
+    background-image: url(img/servicios/foto4.jpg);
+  } */
+
+  .video-responsive {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .modal-content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+    max-width: 310px;
+    height: auto;
+    padding: 12px;
+  }
+
+  .video-container iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
   .sec-video {
     min-height: 500px;
     background-position: center;
